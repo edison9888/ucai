@@ -1,10 +1,10 @@
-Ô´ÂëÎÄ¼şËµÃ÷£¬ÓÃXCode´ò¿ªJingDuTianXia.xcodeproj£¬IDEÊÓÍ¼×ó²àGroups & FilesÖĞµÄÎÄ¼ş×éÖ¯ĞÎÊ½¼°¶ÔÓ¦ÄÚÈİÈçÏÂ("-"±íÊ¾×éÖ¯½á¹¹£¬"+"±íÊ¾ÊµÌåÎÄ¼ş):
+ï»¿æºç æ–‡ä»¶è¯´æ˜ï¼Œç”¨XCodeæ‰“å¼€JingDuTianXia.xcodeprojï¼ŒIDEè§†å›¾å·¦ä¾§Groups & Filesä¸­çš„æ–‡ä»¶ç»„ç»‡å½¢å¼åŠå¯¹åº”å†…å®¹å¦‚ä¸‹("-"è¡¨ç¤ºç»„ç»‡ç»“æ„ï¼Œ"+"è¡¨ç¤ºå®ä½“æ–‡ä»¶):
 - JingDuTianXia
   - Classes
 	- XMLSupport
-		+ GDataXMLNode.h               (µÚÈı·½GoogleµÄXML½âÎö¿â.hÎÄ¼ş)
-		+ GDataXMLNode.m               (µÚÈı·½GoogleµÄXML½âÎö¿â.mÎÄ¼ş)
-	- ASIHTTP                              (µÚÈı·½ÍøÂçÇëÇóASIHTTP¿ªÔ´¿â)
+		+ GDataXMLNode.h               (ç¬¬ä¸‰æ–¹Googleçš„XMLè§£æåº“.hæ–‡ä»¶)
+		+ GDataXMLNode.m               (ç¬¬ä¸‰æ–¹Googleçš„XMLè§£æåº“.mæ–‡ä»¶)
+	- ASIHTTP                              (ç¬¬ä¸‰æ–¹ç½‘ç»œè¯·æ±‚ASIHTTPå¼€æºåº“)
 		+ ASIAuthenticationDialog.h
 		+ ASIAuthenticationDialog.m
 		+ ASICacheDelegate.h
@@ -21,7 +21,7 @@
 		+ ASIProgressDelegate.h
 		+ Reachability.h
 		+ Reachability.m
-	- JSON                             (µÚÈı·½JSON½âÎö¿ªÔ´¿â)
+	- JSON                             (ç¬¬ä¸‰æ–¹JSONè§£æå¼€æºåº“)
 		+ NSObject+SBJSON.h
 		+ NSObject+SBJSON.m
 		+ NSString+SBJSON.h
@@ -32,116 +32,116 @@
 		+ SBJsonBase.m
 		+ SBJsonWriter.h
 		+ SBJsonWriter.m
-	- MainFrame                        (¿ò¼Ü´úÂë)
-		+ JingDuTianXiaAppDelegate.h   (ÏµÍ³AppDelegateµÄ.hÎÄ¼ş)
-		+ JingDuTianXiaAppDelegate.m   (ÏµÍ³AppDelegateµÄ.mÎÄ¼ş)
-		+ RootViewController.h         (¾Å¹¬¸ñÒ³Ãæ¿ØÖÆÆ÷µÄ.hÎÄ¼ş)
-		+ RootViewController.m         (¾Å¹¬¸ñÒ³Ãæ¿ØÖÆÆ÷µÄ.mÎÄ¼ş)
-		+ AboutUsViewController.h      ("¹ØÓÚ"Ò³Ãæ¿ØÖÆÆ÷µÄ.hÎÄ¼ş)
-		+ AboutUsViewController.m      ("¹ØÓÚ"Ò³Ãæ¿ØÖÆÆ÷µÄ.mÎÄ¼ş)
-	- Air                                  (»úÆ±Ïà¹Ø)
-		- AirTicketSearch              (»úÆ±²éÑ¯Ïà¹Ø)
-			+ AirTicketClassViewController.h    (·É»úÆ±ÎñÒ³ÃæµÄ .hÎÄ¼ş)
-			+ AirTicketClassViewController.m    (·É»úÆ±ÎñÒ³ÃæµÄ .mÎÄ¼ş)
-			+ AirTicketViewController.h         (»úÆ±²éÑ¯Ò³Ãæ   .hÎÄ¼ş)
-			+ AirTicketViewController.m         (»úÆ±²éÑ¯Ò³Ãæ   .mÎÄ¼ş)
-			+ AirTicketInfoViewController.h     (º½°àÁĞ±íÒ³Ãæ   .hÎÄ¼ş)
-			+ AirTicketInfoViewController.m     (º½°àÁĞ±íÒ³Ãæ   .mÎÄ¼ş)
-			+ AirTicketDetailInfoViewController.h (º½°à²ÕÎ»ÊÓÍ¼ .hÎÄ¼ş)
-			+ AirTicketDetailInfoViewController.m (º½°à²ÕÎ»ÊÓÍ¼ .mÎÄ¼ş)
-			+ SelectedAirlineSeatViewController.h (ÒÑÑ¡º½°àĞÅÏ¢ÏÔÊ¾ÊÓÍ¼ .hÎÄ¼ş)
-			+ SelectedAirlineSeatViewController.m (ÒÑÑ¡º½°àĞÅÏ¢ÏÔÊ¾ÊÓÍ¼ .mÎÄ¼ş)
-			+ UserInfoViewController.h           (ÓÃ»§ĞÅÏ¢ÌîĞ´ÊÓÍ¼ .hÎÄ¼ş)
-			+ UserInfoViewController.m           (ÓÃ»§ĞÅÏ¢ÌîĞ´ÊÓÍ¼ .mÎÄ¼ş)
-			+ AirTicketOrderViewController.h     (ÔÚÏßÖ§¸¶ÊÓÍ¼ .hÎÄ¼ş)
-			+ AirTicketOrderViewController.m     (ÔÚÏßÖ§¸¶ÊÓÍ¼ .mÎÄ¼ş)
-		- AirTicketOrderSearch                   (»úÆ±¶©µ¥²éÑ¯Ïà¹Ø)
-			+ AirTicketOrderSearchViewController.h  (ÂÃ¿Í¶©µ¥²éÑ¯Ò³Ãæ .hÎÄ¼ş)
-			+ AirTicketOrderSearchViewController.m  (ÂÃ¿Í¶©µ¥²éÑ¯Ò³Ãæ .mÎÄ¼ş)
-			+ AirTicketOrderSearchResultViewController.h (¶©µ¥ÁĞ±íÒ³Ãæ .hÎÄ¼ş)
-			+ AirTicketOrderSearchResultViewController.m (¶©µ¥ÁĞ±íÒ³Ãæ .mÎÄ¼ş)
-			+ AirTicketOrderSearchDetailResultViewController.h (¶©µ¥ÏêÇéÒ³Ãæ .hÎÄ¼ş)
-			+ AirTicketOrderSearchDetailResultViewController.m (¶©µ¥ÏêÇéÒ³Ãæ .mÎÄ¼ş)
-	- Train                                (»ğ³µÆ±²éÑ¯Ïà¹Ø)
-		+ TrainTicketClassViewController.h (»ğ³µÆ±ÎñÒ³Ãæ .hÎÄ¼ş)
-		+ TrainTicketClassViewController.m (»ğ³µÆ±ÎñÒ³Ãæ .mÎÄ¼ş)
-		+ TrainTicketViewController.h      (ÁĞ³µ²éÑ¯Ò³Ãæ .hÎÄ¼ş)
-		+ TrainTicketViewController.m      (ÁĞ³µ²éÑ¯Ò³Ãæ .mÎÄ¼ş)
-		+ TrainTicketInfoViewController.h  (ÁĞ³µĞÅÏ¢Ò³Ãæ .hÎÄ¼ş)
-		+ TrainTicketInfoViewController.m  (ÁĞ³µĞÅÏ¢Ò³Ãæ .mÎÄ¼ş)
-		+ TrainTicketDetailInfoViewController.h (Õ¾µãÏêÇéÒ³Ãæ .hÎÄ¼ş)
-		+ TrainTicketDetailInfoViewController.m (Õ¾µãÏêÇéÒ³Ãæ .mÎÄ¼ş)
-	- DataClass                          (Êı¾İÇëÇó¼°ÏìÓ¦Ïà¹Ø)
-		- ResponseParser                 (XMLÊı¾İ½âÎöÀà£¬ÓÃÓÚ½âÎöÉú³É¸÷ÖÖÏìÓ¦Êı¾İ)
+	- MainFrame                        (æ¡†æ¶ä»£ç )
+		+ JingDuTianXiaAppDelegate.h   (ç³»ç»ŸAppDelegateçš„.hæ–‡ä»¶)
+		+ JingDuTianXiaAppDelegate.m   (ç³»ç»ŸAppDelegateçš„.mæ–‡ä»¶)
+		+ RootViewController.h         (ä¹å®«æ ¼é¡µé¢æ§åˆ¶å™¨çš„.hæ–‡ä»¶)
+		+ RootViewController.m         (ä¹å®«æ ¼é¡µé¢æ§åˆ¶å™¨çš„.mæ–‡ä»¶)
+		+ AboutUsViewController.h      ("å…³äº"é¡µé¢æ§åˆ¶å™¨çš„.hæ–‡ä»¶)
+		+ AboutUsViewController.m      ("å…³äº"é¡µé¢æ§åˆ¶å™¨çš„.mæ–‡ä»¶)
+	- Air                                  (æœºç¥¨ç›¸å…³)
+		- AirTicketSearch              (æœºç¥¨æŸ¥è¯¢ç›¸å…³)
+			+ AirTicketClassViewController.h    (é£æœºç¥¨åŠ¡é¡µé¢çš„ .hæ–‡ä»¶)
+			+ AirTicketClassViewController.m    (é£æœºç¥¨åŠ¡é¡µé¢çš„ .mæ–‡ä»¶)
+			+ AirTicketViewController.h         (æœºç¥¨æŸ¥è¯¢é¡µé¢   .hæ–‡ä»¶)
+			+ AirTicketViewController.m         (æœºç¥¨æŸ¥è¯¢é¡µé¢   .mæ–‡ä»¶)
+			+ AirTicketInfoViewController.h     (èˆªç­åˆ—è¡¨é¡µé¢   .hæ–‡ä»¶)
+			+ AirTicketInfoViewController.m     (èˆªç­åˆ—è¡¨é¡µé¢   .mæ–‡ä»¶)
+			+ AirTicketDetailInfoViewController.h (èˆªç­èˆ±ä½è§†å›¾ .hæ–‡ä»¶)
+			+ AirTicketDetailInfoViewController.m (èˆªç­èˆ±ä½è§†å›¾ .mæ–‡ä»¶)
+			+ SelectedAirlineSeatViewController.h (å·²é€‰èˆªç­ä¿¡æ¯æ˜¾ç¤ºè§†å›¾ .hæ–‡ä»¶)
+			+ SelectedAirlineSeatViewController.m (å·²é€‰èˆªç­ä¿¡æ¯æ˜¾ç¤ºè§†å›¾ .mæ–‡ä»¶)
+			+ UserInfoViewController.h           (ç”¨æˆ·ä¿¡æ¯å¡«å†™è§†å›¾ .hæ–‡ä»¶)
+			+ UserInfoViewController.m           (ç”¨æˆ·ä¿¡æ¯å¡«å†™è§†å›¾ .mæ–‡ä»¶)
+			+ AirTicketOrderViewController.h     (åœ¨çº¿æ”¯ä»˜è§†å›¾ .hæ–‡ä»¶)
+			+ AirTicketOrderViewController.m     (åœ¨çº¿æ”¯ä»˜è§†å›¾ .mæ–‡ä»¶)
+		- AirTicketOrderSearch                   (æœºç¥¨è®¢å•æŸ¥è¯¢ç›¸å…³)
+			+ AirTicketOrderSearchViewController.h  (æ—…å®¢è®¢å•æŸ¥è¯¢é¡µé¢ .hæ–‡ä»¶)
+			+ AirTicketOrderSearchViewController.m  (æ—…å®¢è®¢å•æŸ¥è¯¢é¡µé¢ .mæ–‡ä»¶)
+			+ AirTicketOrderSearchResultViewController.h (è®¢å•åˆ—è¡¨é¡µé¢ .hæ–‡ä»¶)
+			+ AirTicketOrderSearchResultViewController.m (è®¢å•åˆ—è¡¨é¡µé¢ .mæ–‡ä»¶)
+			+ AirTicketOrderSearchDetailResultViewController.h (è®¢å•è¯¦æƒ…é¡µé¢ .hæ–‡ä»¶)
+			+ AirTicketOrderSearchDetailResultViewController.m (è®¢å•è¯¦æƒ…é¡µé¢ .mæ–‡ä»¶)
+	- Train                                (ç«è½¦ç¥¨æŸ¥è¯¢ç›¸å…³)
+		+ TrainTicketClassViewController.h (ç«è½¦ç¥¨åŠ¡é¡µé¢ .hæ–‡ä»¶)
+		+ TrainTicketClassViewController.m (ç«è½¦ç¥¨åŠ¡é¡µé¢ .mæ–‡ä»¶)
+		+ TrainTicketViewController.h      (åˆ—è½¦æŸ¥è¯¢é¡µé¢ .hæ–‡ä»¶)
+		+ TrainTicketViewController.m      (åˆ—è½¦æŸ¥è¯¢é¡µé¢ .mæ–‡ä»¶)
+		+ TrainTicketInfoViewController.h  (åˆ—è½¦ä¿¡æ¯é¡µé¢ .hæ–‡ä»¶)
+		+ TrainTicketInfoViewController.m  (åˆ—è½¦ä¿¡æ¯é¡µé¢ .mæ–‡ä»¶)
+		+ TrainTicketDetailInfoViewController.h (ç«™ç‚¹è¯¦æƒ…é¡µé¢ .hæ–‡ä»¶)
+		+ TrainTicketDetailInfoViewController.m (ç«™ç‚¹è¯¦æƒ…é¡µé¢ .mæ–‡ä»¶)
+	- DataClass                          (æ•°æ®è¯·æ±‚åŠå“åº”ç›¸å…³)
+		- ResponseParser                 (XMLæ•°æ®è§£æç±»ï¼Œç”¨äºè§£æç”Ÿæˆå„ç§å“åº”æ•°æ®)
 			+ ResponseParser.h
 			+ ResponseParser.m
-		- AirlineSearchInputData         (º½°à²éÑ¯ÊäÈëÊı¾İ)
+		- AirlineSearchInputData         (èˆªç­æŸ¥è¯¢è¾“å…¥æ•°æ®)
 			+ AirlineSearchInputData.h   
 			+ AirlineSearchInputData.m   
-		- AirlineSearchOutputData        (º½°à²éÑ¯Êä³öÊı¾İ)
-			- SearchSpecialAirline      (º½°à²ÕÎ»ÊÓÍ¼ÏìÓ¦Êı¾İ½âÎöÀà)
+		- AirlineSearchOutputData        (èˆªç­æŸ¥è¯¢è¾“å‡ºæ•°æ®)
+			- SearchSpecialAirline      (èˆªç­èˆ±ä½è§†å›¾å“åº”æ•°æ®è§£æç±»)
 				+ AirlineDetailData.h
 				+ AirlineDetailData.m
 				+ AirlineDetailResponse.h
 				+ AirlineDetailResponse.m
-			- SearchAirlines            (º½°àÁĞ±íÒ³ÃæÏìÓ¦Êı¾İ½âÎöÀà)
+			- SearchAirlines            (èˆªç­åˆ—è¡¨é¡µé¢å“åº”æ•°æ®è§£æç±»)
 				+ AirlineData.h
 				+ AirlineData.m
 				+ AirlineResponse.h
 				+ AirlineResponse.m
-			- AirTicketOrder             (º½°àÏÂµ¥µÄÊı¾İÏìÓ¦Àà)
+			- AirTicketOrder             (èˆªç­ä¸‹å•çš„æ•°æ®å“åº”ç±»)
 				+ AirTicketOrderResponse.h
 				+ AirTicketOrderResponse.m
-			- SearchOrders               (¶©µ¥ÁĞ±íÒ³ÃæÏìÓ¦Êı¾İÀà)
+			- SearchOrders               (è®¢å•åˆ—è¡¨é¡µé¢å“åº”æ•°æ®ç±»)
 				+ AirlineOrderSearchData.h
 				+ AirlineOrderSearchData.m
 				+ AirlineOrderSearchResponse.h
 				+ AirlineOrderSearchResponse.m					
-			- SearchSpecialOrder         (¶©µ¥ÏêÇéÒ³ÃæÏìÓ¦Êı¾İÀà)
+			- SearchSpecialOrder         (è®¢å•è¯¦æƒ…é¡µé¢å“åº”æ•°æ®ç±»)
 				+ AirlineOrderSearchDetailData.h
 				+ AirlineOrderSearchDetailData.m
 				+ AirlineOrderSearchDetailDataResponse.h
 				+ AirlineOrderSearchDetailDataResponse.m							
-		- TrainSearchInputData          (»ğ³µ²éÑ¯ÊäÈëÊı¾İÀà)
+		- TrainSearchInputData          (ç«è½¦æŸ¥è¯¢è¾“å…¥æ•°æ®ç±»)
 			+ TrainSearchInputData.h
 			+ TrainSearchInputData.m
-		- TrainSearchOutputData         (»ğ³µ²éÑ¯Êä³öÊı¾İÏà¹Ø)
-			- SearchSpecialTrain        (Õ¾µãÏêÇéÒ³ÃæÏìÓ¦Êı¾İÀà)
+		- TrainSearchOutputData         (ç«è½¦æŸ¥è¯¢è¾“å‡ºæ•°æ®ç›¸å…³)
+			- SearchSpecialTrain        (ç«™ç‚¹è¯¦æƒ…é¡µé¢å“åº”æ•°æ®ç±»)
 				+ TrainStationData.h
 				+ TrainStationData.m
 				+ TrainDetailResponse.h
 				+ TrainDetailResponse.m
-			- SearchTrains              (ÁĞ³µĞÅÏ¢Ò³ÃæÏìÓ¦Êı¾İÀà)
+			- SearchTrains              (åˆ—è½¦ä¿¡æ¯é¡µé¢å“åº”æ•°æ®ç±»)
 				+ TrainData.h
 				+ TrainData.m
 				+ TrainResponse.h
 				+ TrainResponse.m
 		- CommonToolClass
-			- CommonTools.h                (Í¨ÓÃº¯ÊıÀàµÄ .hÎÄ¼ş)
-			- CommonTools.m                (Í¨ÓÃº¯ÊıÀàµÄ .mÎÄ¼ş)
+			- CommonTools.h                (é€šç”¨å‡½æ•°ç±»çš„ .hæ–‡ä»¶)
+			- CommonTools.m                (é€šç”¨å‡½æ•°ç±»çš„ .mæ–‡ä»¶)
 		- Other Sources
-			+ JingDuTianXia_Prefix.pch     (¿ò¼Ü¹«ÓÃµÄÍ·ÎÄ¼şÒıÈë)
-			+ main.m                       (¶©Æ±ÏµÍ³Èë¿Úº¯Êı)
-		- Resources                        (ËùÓĞ×ÊÔ´ÎÄ¼ş)
-			+ JingDuTianXia.xcdatamodeld   (Ô¤Áô½Ó¿Ú£¬ÓÃÓÚCoreDataµÄÊ¹ÓÃ)
-			+ MainWindow.xib               (¸ù´°¿Ú½çÃæÃèÊöÎÄ¼ş)
-			+ RootViewController.xib       (¾Å¹¬¸ñ½çÃæÃèÊöÎÄ¼ş)
-			+ AboutUsViewController.xib    (¹ØÓÚÎÒÃÇ½çÃæÃèÊöÎÄ¼ş)
-			- icon                         (ËùÓĞÍ¼±êÎÄ¼ş)
-				+ rectangle_tick.png       (Ô¤ÁôÓÃÓÚµÇÂ¼½çÃæ)
-				+ rectangle.png            (Ô¤ÁôÓÃÓÚµÇÂ¼½çÃæ)
-				+ icon.png                 (iphone3GS×ÀÃæÍ¼±ê)
-				+ icon@2x.png              (iphone4×ÀÃæÍ¼±ê)
-				- background               (Ê¹ÓÃµ½µÄ±³¾°Í¼Æ¬)
-					+ background.png       (±³¾°Í¼Æ¬)
-					+ logo.png             (¾«¶È±³¾°Í¼±ê)
-					+ transparent.png      (Í¸Ã÷µ×É«Í¼)
-					+ launch.jpg           (Æô¶¯Ê±µÄ»­Ãæ)
-					+ darkgreen.jpg        (Ô¤ÁôÍ¼Æ¬)
-					+ lightbrown.jpg       (Ô¤ÁôÍ¼Æ¬)
-					+ background_trans.png (Ô¤ÁôÍ¼Æ¬)
-					+ transparent_small.png(Ô¤ÁôÍ¼Æ¬)
-				- L1                       (Ò»¼¶¾Å¹¬¸ñÍ¼±ê)
+			+ JingDuTianXia_Prefix.pch     (æ¡†æ¶å…¬ç”¨çš„å¤´æ–‡ä»¶å¼•å…¥)
+			+ main.m                       (è®¢ç¥¨ç³»ç»Ÿå…¥å£å‡½æ•°)
+		- Resources                        (æ‰€æœ‰èµ„æºæ–‡ä»¶)
+			+ JingDuTianXia.xcdatamodeld   (é¢„ç•™æ¥å£ï¼Œç”¨äºCoreDataçš„ä½¿ç”¨)
+			+ MainWindow.xib               (æ ¹çª—å£ç•Œé¢æè¿°æ–‡ä»¶)
+			+ RootViewController.xib       (ä¹å®«æ ¼ç•Œé¢æè¿°æ–‡ä»¶)
+			+ AboutUsViewController.xib    (å…³äºæˆ‘ä»¬ç•Œé¢æè¿°æ–‡ä»¶)
+			- icon                         (æ‰€æœ‰å›¾æ ‡æ–‡ä»¶)
+				+ rectangle_tick.png       (é¢„ç•™ç”¨äºç™»å½•ç•Œé¢)
+				+ rectangle.png            (é¢„ç•™ç”¨äºç™»å½•ç•Œé¢)
+				+ icon.png                 (iphone3GSæ¡Œé¢å›¾æ ‡)
+				+ icon@2x.png              (iphone4æ¡Œé¢å›¾æ ‡)
+				- background               (ä½¿ç”¨åˆ°çš„èƒŒæ™¯å›¾ç‰‡)
+					+ background.png       (èƒŒæ™¯å›¾ç‰‡)
+					+ logo.png             (ç²¾åº¦èƒŒæ™¯å›¾æ ‡)
+					+ transparent.png      (é€æ˜åº•è‰²å›¾)
+					+ launch.jpg           (å¯åŠ¨æ—¶çš„ç”»é¢)
+					+ darkgreen.jpg        (é¢„ç•™å›¾ç‰‡)
+					+ lightbrown.jpg       (é¢„ç•™å›¾ç‰‡)
+					+ background_trans.png (é¢„ç•™å›¾ç‰‡)
+					+ transparent_small.png(é¢„ç•™å›¾ç‰‡)
+				- L1                       (ä¸€çº§ä¹å®«æ ¼å›¾æ ‡)
 					+ air.png
 					+ bestPayCard.png
 					+ businessEasyCard.png
@@ -151,13 +151,13 @@
 					+ myOrder.png
 					+ train.png
 					+ trvel.png
-				- L2                       (¶ş¼¶¾Å¹¬¸ñÍ¼±ê)
+				- L2                       (äºŒçº§ä¹å®«æ ¼å›¾æ ‡)
 					+ airlineOrderSearch80px.png
 					+ airlineSearch80px.png
 					+ airTicketManage80px.png
 					+ trainSearch80px.png
 					+ trainTicketManage80px.png
-			- Air                          (ËùÓĞÓë»úÆ±²éÑ¯ºÍ»úÆ±¶©µ¥²éÑ¯Ïà¹ØµÄ½çÃæÃèÊöÎÄ¼ş)
+			- Air                          (æ‰€æœ‰ä¸æœºç¥¨æŸ¥è¯¢å’Œæœºç¥¨è®¢å•æŸ¥è¯¢ç›¸å…³çš„ç•Œé¢æè¿°æ–‡ä»¶)
 				+ AirTicketOrderSearchViewController.xib
 				+ AirTicketClassViewController.xib
 				+ AirTicketOrderViewController.xib
@@ -165,7 +165,7 @@
 				+ AirTicketInfoViewController.xib
 				+ AirTicketViewController.xib
 				+ AirlineDetailCell.xib
-				+ AirlineDetailClassCell.xib (Ô¤ÁôÌæ»»ÓÃ)
+				+ AirlineDetailClassCell.xib (é¢„ç•™æ›¿æ¢ç”¨)
 				+ AirlineDetailClassPriceCell.xib
 				+ AirTicketDetailInfoViewController.xib
 				+ SelectedAirlineSeatViewController.xib
@@ -173,18 +173,18 @@
 				+ AirTicketOrderSearchResultCell.xib
 				+ AirTicketOrderSearchDetailResultViewController.xib
 				+ UserInfoViewController.xib
-			- Train                           (»ğ³µ²éÑ¯Ïà¹ØµÄ½çÃæÃèÊöÎÄ¼ş)
+			- Train                           (ç«è½¦æŸ¥è¯¢ç›¸å…³çš„ç•Œé¢æè¿°æ–‡ä»¶)
 				+ TrainTicketDetailInfoViewController.xib
 				+ TrainTicketViewController.xib
 				+ TrainTicketInfoVIewController.xib
 				+ TrainTicketClassViewController.xib
 				+ TrainCell.xib
 				+ TrainDetailStationCell.xib
-			+ JingDuTianXia-Info.plist         (ÏµÍ³ÊôĞÔÅäÖÃ)
-			+ flightCityCode.xml               (ÍêÕû»ú³¡¼°Èı×ÖÂë¶ÔÓ¦ÁĞ±í£¬ÓÃÓÚ³ÌĞòÖĞÔØÈë)
+			+ JingDuTianXia-Info.plist         (ç³»ç»Ÿå±æ€§é…ç½®)
+			+ flightCityCode.xml               (å®Œæ•´æœºåœºåŠä¸‰å­—ç å¯¹åº”åˆ—è¡¨ï¼Œç”¨äºç¨‹åºä¸­è½½å…¥)
 			+ data.plist
 			+ setting.plist
-		- Frameworks                               (³ÌĞòÖĞĞèÒªÓÃµ½µÄÒ»Ğ©ÏµÍ³¿â)
+		- Frameworks                               (ç¨‹åºä¸­éœ€è¦ç”¨åˆ°çš„ä¸€äº›ç³»ç»Ÿåº“)
 			+ AddressBookUI.framework
 			+ AddressBook.framework
 			+ UIKit.framework
