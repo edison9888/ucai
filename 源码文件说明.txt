@@ -1,0 +1,202 @@
+源码文件说明，用XCode打开JingDuTianXia.xcodeproj，IDE视图左侧Groups & Files中的文件组织形式及对应内容如下("-"表示组织结构，"+"表示实体文件):
+- JingDuTianXia
+  - Classes
+	- XMLSupport
+		+ GDataXMLNode.h               (第三方Google的XML解析库.h文件)
+		+ GDataXMLNode.m               (第三方Google的XML解析库.m文件)
+	- ASIHTTP                              (第三方网络请求ASIHTTP开源库)
+		+ ASIAuthenticationDialog.h
+		+ ASIAuthenticationDialog.m
+		+ ASICacheDelegate.h
+		+ ASIFormDataRequest.h
+		+ ASIFormDataRequest.m
+		+ ASIHTTPRequest.h
+		+ ASIHTTPRequest.m
+		+ ASIHTTPRequestConfig.h
+		+ ASIHTTPRequestDelegate.h
+		+ ASIInputStream.h
+		+ ASIInputStream.m
+		+ ASINetworkQueue.h
+		+ ASINetworkQueue.m
+		+ ASIProgressDelegate.h
+		+ Reachability.h
+		+ Reachability.m
+	- JSON                             (第三方JSON解析开源库)
+		+ NSObject+SBJSON.h
+		+ NSObject+SBJSON.m
+		+ NSString+SBJSON.h
+		+ NSString+SBJSON.m
+		+ SBJSON.h
+		+ SBJSON.m
+		+ SBJsonBase.h
+		+ SBJsonBase.m
+		+ SBJsonWriter.h
+		+ SBJsonWriter.m
+	- MainFrame                        (框架代码)
+		+ JingDuTianXiaAppDelegate.h   (系统AppDelegate的.h文件)
+		+ JingDuTianXiaAppDelegate.m   (系统AppDelegate的.m文件)
+		+ RootViewController.h         (九宫格页面控制器的.h文件)
+		+ RootViewController.m         (九宫格页面控制器的.m文件)
+		+ AboutUsViewController.h      ("关于"页面控制器的.h文件)
+		+ AboutUsViewController.m      ("关于"页面控制器的.m文件)
+	- Air                                  (机票相关)
+		- AirTicketSearch              (机票查询相关)
+			+ AirTicketClassViewController.h    (飞机票务页面的 .h文件)
+			+ AirTicketClassViewController.m    (飞机票务页面的 .m文件)
+			+ AirTicketViewController.h         (机票查询页面   .h文件)
+			+ AirTicketViewController.m         (机票查询页面   .m文件)
+			+ AirTicketInfoViewController.h     (航班列表页面   .h文件)
+			+ AirTicketInfoViewController.m     (航班列表页面   .m文件)
+			+ AirTicketDetailInfoViewController.h (航班舱位视图 .h文件)
+			+ AirTicketDetailInfoViewController.m (航班舱位视图 .m文件)
+			+ SelectedAirlineSeatViewController.h (已选航班信息显示视图 .h文件)
+			+ SelectedAirlineSeatViewController.m (已选航班信息显示视图 .m文件)
+			+ UserInfoViewController.h           (用户信息填写视图 .h文件)
+			+ UserInfoViewController.m           (用户信息填写视图 .m文件)
+			+ AirTicketOrderViewController.h     (在线支付视图 .h文件)
+			+ AirTicketOrderViewController.m     (在线支付视图 .m文件)
+		- AirTicketOrderSearch                   (机票订单查询相关)
+			+ AirTicketOrderSearchViewController.h  (旅客订单查询页面 .h文件)
+			+ AirTicketOrderSearchViewController.m  (旅客订单查询页面 .m文件)
+			+ AirTicketOrderSearchResultViewController.h (订单列表页面 .h文件)
+			+ AirTicketOrderSearchResultViewController.m (订单列表页面 .m文件)
+			+ AirTicketOrderSearchDetailResultViewController.h (订单详情页面 .h文件)
+			+ AirTicketOrderSearchDetailResultViewController.m (订单详情页面 .m文件)
+	- Train                                (火车票查询相关)
+		+ TrainTicketClassViewController.h (火车票务页面 .h文件)
+		+ TrainTicketClassViewController.m (火车票务页面 .m文件)
+		+ TrainTicketViewController.h      (列车查询页面 .h文件)
+		+ TrainTicketViewController.m      (列车查询页面 .m文件)
+		+ TrainTicketInfoViewController.h  (列车信息页面 .h文件)
+		+ TrainTicketInfoViewController.m  (列车信息页面 .m文件)
+		+ TrainTicketDetailInfoViewController.h (站点详情页面 .h文件)
+		+ TrainTicketDetailInfoViewController.m (站点详情页面 .m文件)
+	- DataClass                          (数据请求及响应相关)
+		- ResponseParser                 (XML数据解析类，用于解析生成各种响应数据)
+			+ ResponseParser.h
+			+ ResponseParser.m
+		- AirlineSearchInputData         (航班查询输入数据)
+			+ AirlineSearchInputData.h   
+			+ AirlineSearchInputData.m   
+		- AirlineSearchOutputData        (航班查询输出数据)
+			- SearchSpecialAirline      (航班舱位视图响应数据解析类)
+				+ AirlineDetailData.h
+				+ AirlineDetailData.m
+				+ AirlineDetailResponse.h
+				+ AirlineDetailResponse.m
+			- SearchAirlines            (航班列表页面响应数据解析类)
+				+ AirlineData.h
+				+ AirlineData.m
+				+ AirlineResponse.h
+				+ AirlineResponse.m
+			- AirTicketOrder             (航班下单的数据响应类)
+				+ AirTicketOrderResponse.h
+				+ AirTicketOrderResponse.m
+			- SearchOrders               (订单列表页面响应数据类)
+				+ AirlineOrderSearchData.h
+				+ AirlineOrderSearchData.m
+				+ AirlineOrderSearchResponse.h
+				+ AirlineOrderSearchResponse.m					
+			- SearchSpecialOrder         (订单详情页面响应数据类)
+				+ AirlineOrderSearchDetailData.h
+				+ AirlineOrderSearchDetailData.m
+				+ AirlineOrderSearchDetailDataResponse.h
+				+ AirlineOrderSearchDetailDataResponse.m							
+		- TrainSearchInputData          (火车查询输入数据类)
+			+ TrainSearchInputData.h
+			+ TrainSearchInputData.m
+		- TrainSearchOutputData         (火车查询输出数据相关)
+			- SearchSpecialTrain        (站点详情页面响应数据类)
+				+ TrainStationData.h
+				+ TrainStationData.m
+				+ TrainDetailResponse.h
+				+ TrainDetailResponse.m
+			- SearchTrains              (列车信息页面响应数据类)
+				+ TrainData.h
+				+ TrainData.m
+				+ TrainResponse.h
+				+ TrainResponse.m
+		- CommonToolClass
+			- CommonTools.h                (通用函数类的 .h文件)
+			- CommonTools.m                (通用函数类的 .m文件)
+		- Other Sources
+			+ JingDuTianXia_Prefix.pch     (框架公用的头文件引入)
+			+ main.m                       (订票系统入口函数)
+		- Resources                        (所有资源文件)
+			+ JingDuTianXia.xcdatamodeld   (预留接口，用于CoreData的使用)
+			+ MainWindow.xib               (根窗口界面描述文件)
+			+ RootViewController.xib       (九宫格界面描述文件)
+			+ AboutUsViewController.xib    (关于我们界面描述文件)
+			- icon                         (所有图标文件)
+				+ rectangle_tick.png       (预留用于登录界面)
+				+ rectangle.png            (预留用于登录界面)
+				+ icon.png                 (iphone3GS桌面图标)
+				+ icon@2x.png              (iphone4桌面图标)
+				- background               (使用到的背景图片)
+					+ background.png       (背景图片)
+					+ logo.png             (精度背景图标)
+					+ transparent.png      (透明底色图)
+					+ launch.jpg           (启动时的画面)
+					+ darkgreen.jpg        (预留图片)
+					+ lightbrown.jpg       (预留图片)
+					+ background_trans.png (预留图片)
+					+ transparent_small.png(预留图片)
+				- L1                       (一级九宫格图标)
+					+ air.png
+					+ bestPayCard.png
+					+ businessEasyCard.png
+					+ hotel.png
+					+ login.png
+					+ member.png
+					+ myOrder.png
+					+ train.png
+					+ trvel.png
+				- L2                       (二级九宫格图标)
+					+ airlineOrderSearch80px.png
+					+ airlineSearch80px.png
+					+ airTicketManage80px.png
+					+ trainSearch80px.png
+					+ trainTicketManage80px.png
+			- Air                          (所有与机票查询和机票订单查询相关的界面描述文件)
+				+ AirTicketOrderSearchViewController.xib
+				+ AirTicketClassViewController.xib
+				+ AirTicketOrderViewController.xib
+				+ AirlineCell.xib
+				+ AirTicketInfoViewController.xib
+				+ AirTicketViewController.xib
+				+ AirlineDetailCell.xib
+				+ AirlineDetailClassCell.xib (预留替换用)
+				+ AirlineDetailClassPriceCell.xib
+				+ AirTicketDetailInfoViewController.xib
+				+ SelectedAirlineSeatViewController.xib
+				+ AirTicketOrderSearchResultViewController.xib
+				+ AirTicketOrderSearchResultCell.xib
+				+ AirTicketOrderSearchDetailResultViewController.xib
+				+ UserInfoViewController.xib
+			- Train                           (火车查询相关的界面描述文件)
+				+ TrainTicketDetailInfoViewController.xib
+				+ TrainTicketViewController.xib
+				+ TrainTicketInfoVIewController.xib
+				+ TrainTicketClassViewController.xib
+				+ TrainCell.xib
+				+ TrainDetailStationCell.xib
+			+ JingDuTianXia-Info.plist         (系统属性配置)
+			+ flightCityCode.xml               (完整机场及三字码对应列表，用于程序中载入)
+			+ data.plist
+			+ setting.plist
+		- Frameworks                               (程序中需要用到的一些系统库)
+			+ AddressBookUI.framework
+			+ AddressBook.framework
+			+ UIKit.framework
+			+ Foundation.framework
+			+ CoreGraphics.framework
+			+ CoreData.framework
+			+ AVFoundation.framework
+			+ CFNetwork.framework
+			+ MobileCoreServices.framework
+			+ libz.1.2.3.dylib
+			+ libsqlite3.dylib
+			+ SystemConfiguration.framework
+			+ CoreLocation.framework
+			+ libxml2.dylib
+			+ CoreTelephony.framework
