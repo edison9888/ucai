@@ -1,0 +1,1684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8412DBA414C0389F009A8F9B /* TrainDetailResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412DBA314C0389F009A8F9B /* TrainDetailResponseModel.m */; };
+		8412DBA714C03E5D009A8F9B /* TrainStationListResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8412DBA614C03E5D009A8F9B /* TrainStationListResultViewController.m */; };
+		8421AE4A151B00B600FDAED5 /* ThemeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8421AE49151B00B600FDAED5 /* ThemeManager.m */; };
+		844860B014A83FFF00BFDE0D /* FlightOrderCouponChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844860AF14A83FFF00BFDE0D /* FlightOrderCouponChoiceViewController.m */; };
+		844860B414A8427400BFDE0D /* CouponValidQueryResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 844860B314A8427400BFDE0D /* CouponValidQueryResponseModel.m */; };
+		845D1AA414C415910040E0ED /* FlightBookingCityChoiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D1AA314C415910040E0ED /* FlightBookingCityChoiceTableViewController.m */; };
+		845D1AA814C41D090040E0ED /* FlightCompanyChoiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D1AA714C41D090040E0ED /* FlightCompanyChoiceTableViewController.m */; };
+		847EC3F014A17F7800EECBA8 /* CouponBuyCountChoiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EC3EF14A17F7700EECBA8 /* CouponBuyCountChoiceTableViewController.m */; };
+		847EC3F914A1AE7B00EECBA8 /* CouponBookingResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EC3F814A1AE7B00EECBA8 /* CouponBookingResponseModel.m */; };
+		847EC3FC14A1B2B800EECBA8 /* CouponBookResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EC3FB14A1B2B800EECBA8 /* CouponBookResultViewController.m */; };
+		847EC40F14A1E8F300EECBA8 /* AllinTelPayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847EC40E14A1E8F300EECBA8 /* AllinTelPayViewController.m */; };
+		848117AC1491E00A00AB55CE /* FlightOrderListSearchResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 848117AB1491E00A00AB55CE /* FlightOrderListSearchResponseModel.m */; };
+		848117AF1491E18E00AB55CE /* FlightOrderListInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 848117AE1491E18D00AB55CE /* FlightOrderListInfoModel.m */; };
+		84816C1914A303280092FF35 /* AllinTelPayResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84816C1814A303280092FF35 /* AllinTelPayResponseModel.m */; };
+		84816C1C14A30B240092FF35 /* ALLinTelPayResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84816C1B14A30B240092FF35 /* ALLinTelPayResultViewController.m */; };
+		84816C1F14A323F40092FF35 /* CouponOrderListSearchResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84816C1E14A323F40092FF35 /* CouponOrderListSearchResponseModel.m */; };
+		8481939A14A5B93C0007536C /* CouponOrderSendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8481939914A5B93C0007536C /* CouponOrderSendViewController.m */; };
+		8481939E14A5D30B0007536C /* CouponSendResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8481939D14A5D30B0007536C /* CouponSendResponseModel.m */; };
+		8484CC5614C54FF400C7143B /* FlightListSearchResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8484CC5514C54FF400C7143B /* FlightListSearchResponseModel.m */; };
+		8484CC5914C5681400C7143B /* FlightListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8484CC5814C5681100C7143B /* FlightListViewController.m */; };
+		848656BE14BFC12D0089D4F3 /* TrainSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848656BD14BFC12D0089D4F3 /* TrainSearchViewController.m */; };
+		848656C214BFCF940089D4F3 /* TrainCityChoiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848656C114BFCF940089D4F3 /* TrainCityChoiceTableViewController.m */; };
+		848656C614BFFAE90089D4F3 /* TrainSearchResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 848656C514BFFAE90089D4F3 /* TrainSearchResponseModel.m */; };
+		848656C914C002000089D4F3 /* TrainSearchListResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848656C814C002000089D4F3 /* TrainSearchListResultViewController.m */; };
+		8487A4EE14871EED0015FEA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8487A4ED14871EED0015FEA2 /* UIKit.framework */; };
+		8487A4F014871EED0015FEA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8487A4EF14871EED0015FEA2 /* Foundation.framework */; };
+		8487A4F214871EED0015FEA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8487A4F114871EED0015FEA2 /* CoreGraphics.framework */; };
+		8487A4F814871EED0015FEA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8487A4F614871EED0015FEA2 /* InfoPlist.strings */; };
+		8487A4FA14871EED0015FEA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A4F914871EED0015FEA2 /* main.m */; };
+		8487A516148723DB0015FEA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A515148723DB0015FEA2 /* AppDelegate.m */; };
+		8487A5D214872D780015FEA2 /* CommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A5CA14872D780015FEA2 /* CommonTools.m */; };
+		8487A5D914872DC30015FEA2 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A5D814872DC30015FEA2 /* Reachability.m */; };
+		8487A5EF14872E890015FEA2 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A5DC14872E890015FEA2 /* ASIAuthenticationDialog.m */; };
+		8487A5F014872E890015FEA2 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A5DF14872E890015FEA2 /* ASIDataCompressor.m */; };
+		8487A5F114872E890015FEA2 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A5E114872E890015FEA2 /* ASIDataDecompressor.m */; };
+		8487A5F214872E890015FEA2 /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A5E314872E890015FEA2 /* ASIDownloadCache.m */; };
+		8487A5F314872E890015FEA2 /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A5E514872E890015FEA2 /* ASIFormDataRequest.m */; };
+		8487A5F414872E890015FEA2 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A5E714872E890015FEA2 /* ASIHTTPRequest.m */; };
+		8487A5F514872E890015FEA2 /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A5EB14872E890015FEA2 /* ASIInputStream.m */; };
+		8487A5F614872E890015FEA2 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A5ED14872E890015FEA2 /* ASINetworkQueue.m */; };
+		8487A5FA14872ED80015FEA2 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A5F914872ED80015FEA2 /* EGORefreshTableHeaderView.m */; };
+		8487A5FE14872F230015FEA2 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A5FD14872F230015FEA2 /* GDataXMLNode.m */; };
+		8487A60314872F480015FEA2 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A60114872F480015FEA2 /* GTMBase64.m */; };
+		8487A60914872FD10015FEA2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A60714872FD10015FEA2 /* RootViewController.m */; };
+		8487A60B1487304E0015FEA2 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8487A60A1487304D0015FEA2 /* libxml2.dylib */; };
+		8487A60D1487307F0015FEA2 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8487A60C1487307F0015FEA2 /* libz.1.2.5.dylib */; };
+		8487A60F1487308C0015FEA2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8487A60E1487308C0015FEA2 /* CFNetwork.framework */; };
+		8487A611148730A40015FEA2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8487A610148730A40015FEA2 /* SystemConfiguration.framework */; };
+		8487A6201487348C0015FEA2 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A6151487348C0015FEA2 /* NSObject+SBJSON.m */; };
+		8487A6211487348C0015FEA2 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A6171487348C0015FEA2 /* NSString+SBJSON.m */; };
+		8487A6221487348C0015FEA2 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A6191487348C0015FEA2 /* SBJSON.m */; };
+		8487A6231487348C0015FEA2 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A61B1487348C0015FEA2 /* SBJsonBase.m */; };
+		8487A6241487348C0015FEA2 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A61D1487348C0015FEA2 /* SBJsonParser.m */; };
+		8487A6251487348C0015FEA2 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A61F1487348C0015FEA2 /* SBJsonWriter.m */; };
+		8487A627148737C60015FEA2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8487A626148737C50015FEA2 /* QuartzCore.framework */; };
+		8487A6291487382F0015FEA2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8487A6281487382E0015FEA2 /* MobileCoreServices.framework */; };
+		8487A62C148745DD0015FEA2 /* MemberCenterFirstController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A62B148745DD0015FEA2 /* MemberCenterFirstController.m */; };
+		8487A63A148746550015FEA2 /* MemberPasswordBackController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A631148746550015FEA2 /* MemberPasswordBackController.m */; };
+		8487A63B148746550015FEA2 /* RegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A633148746550015FEA2 /* RegisterController.m */; };
+		8487A63D148746550015FEA2 /* MemberPasswordModifyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A638148746550015FEA2 /* MemberPasswordModifyController.m */; };
+		8487A640148746970015FEA2 /* ResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A63F148746970015FEA2 /* ResponseParser.m */; };
+		8487A650148746DE0015FEA2 /* MemberInfoModifyResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A643148746DE0015FEA2 /* MemberInfoModifyResponse.m */; };
+		8487A651148746DE0015FEA2 /* MemberInfoQueryResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A645148746DE0015FEA2 /* MemberInfoQueryResponse.m */; };
+		8487A652148746DE0015FEA2 /* MemberLoginResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A647148746DE0015FEA2 /* MemberLoginResponse.m */; };
+		8487A653148746DE0015FEA2 /* MemberPasswordBackResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A649148746DE0015FEA2 /* MemberPasswordBackResponse.m */; };
+		8487A654148746DE0015FEA2 /* MemberPasswordModifyResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A64B148746DE0015FEA2 /* MemberPasswordModifyResponse.m */; };
+		8487A655148746DE0015FEA2 /* MemberPhoneVerifySendResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A64D148746DE0015FEA2 /* MemberPhoneVerifySendResponse.m */; };
+		8487A656148746DE0015FEA2 /* MemberRegisterResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A64F148746DE0015FEA2 /* MemberRegisterResponse.m */; };
+		8487A6B914874B560015FEA2 /* OrderSearchClassChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A6B614874B560015FEA2 /* OrderSearchClassChoiceViewController.m */; };
+		8487A6BA14874B560015FEA2 /* OrderSearchGuestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A6B814874B560015FEA2 /* OrderSearchGuestViewController.m */; };
+		8487A6D314874B720015FEA2 /* HotelBookController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A6BD14874B720015FEA2 /* HotelBookController.m */; };
+		8487A6D414874B720015FEA2 /* HotelGuestAddController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A6BF14874B720015FEA2 /* HotelGuestAddController.m */; };
+		8487A6D514874B720015FEA2 /* HotelRoomArrivalLastTimeChoiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A6C114874B720015FEA2 /* HotelRoomArrivalLastTimeChoiceController.m */; };
+		8487A6D614874B720015FEA2 /* HotelRoomCountChoiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A6C314874B720015FEA2 /* HotelRoomCountChoiceController.m */; };
+		8487A6D714874B720015FEA2 /* HotelListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A6C614874B720015FEA2 /* HotelListController.m */; };
+		8487A6D814874B720015FEA2 /* HotelCityChoiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A6C914874B720015FEA2 /* HotelCityChoiceController.m */; };
+		8487A6D914874B720015FEA2 /* HotelPriceChoiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A6CB14874B720015FEA2 /* HotelPriceChoiceController.m */; };
+		8487A6DA14874B720015FEA2 /* HotelSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A6CD14874B720015FEA2 /* HotelSearchController.m */; };
+		8487A6DB14874B720015FEA2 /* HotelStarChoiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A6CF14874B720015FEA2 /* HotelStarChoiceController.m */; };
+		8487A6DC14874B720015FEA2 /* HotelSingleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8487A6D214874B720015FEA2 /* HotelSingleController.m */; };
+		8488770F14DF690E00A9CD36 /* FlightCitySettingChoiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8488770E14DF690D00A9CD36 /* FlightCitySettingChoiceTableViewController.m */; };
+		8488771314DF6D8300A9CD36 /* TrainCitySettingChoiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8488771214DF6D8300A9CD36 /* TrainCitySettingChoiceTableViewController.m */; };
+		8488771614DF7E0B00A9CD36 /* WeatherCitySettingChoiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8488771514DF7E0B00A9CD36 /* WeatherCitySettingChoiceTableViewController.m */; };
+		8488772614DFE1B600A9CD36 /* MemberFlightHistoryCustomerQueryResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8488772514DFE1B600A9CD36 /* MemberFlightHistoryCustomerQueryResponse.m */; };
+		8488772914DFE43200A9CD36 /* MemberFlightHistoryCustomerDeleteResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8488772814DFE43100A9CD36 /* MemberFlightHistoryCustomerDeleteResponse.m */; };
+		8488949E14A9B58900249111 /* FlightClassChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8488949D14A9B58900249111 /* FlightClassChoiceViewController.m */; };
+		848A80B914BA84E7002543DD /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 848A80B814BA84E7002543DD /* MBProgressHUD.m */; };
+		848B023714ABFBBB006A3E98 /* FlightReserveResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 848B023614ABFBBB006A3E98 /* FlightReserveResponseModel.m */; };
+		848B023E14AC3FFC006A3E98 /* FlightReserveCityChoiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848B023D14AC3FFB006A3E98 /* FlightReserveCityChoiceTableViewController.m */; };
+		848B024814AC5011006A3E98 /* PhoneBillRechargeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848B024714AC5011006A3E98 /* PhoneBillRechargeViewController.m */; };
+		848B025514AC73C4006A3E98 /* PhoneBillRechargePriceChoiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848B025414AC73C4006A3E98 /* PhoneBillRechargePriceChoiceTableViewController.m */; };
+		848B025914AC76F3006A3E98 /* PhoneBillRechargeResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 848B025814AC76F3006A3E98 /* PhoneBillRechargeResponseModel.m */; };
+		848C05B714E0C4A000DE953E /* FlightHistoryCustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848C05B614E0C4A000DE953E /* FlightHistoryCustomerViewController.m */; };
+		848C05BA14E112F500DE953E /* FlightHistoryCustomerChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848C05B914E112F500DE953E /* FlightHistoryCustomerChoiceViewController.m */; };
+		848C05BD14E131DF00DE953E /* MemberInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848C05BC14E131DE00DE953E /* MemberInfoViewController.m */; };
+		848D4EA714D7BCB5008D03A1 /* FlightCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D4EA614D7BCB5008D03A1 /* FlightCustomer.m */; };
+		848D7DAE1490486D00EF7162 /* HotelOrderInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848D7DAD1490486D00EF7162 /* HotelOrderInfoViewController.m */; };
+		848E856014D8D29B00B75F4A /* FlightCustomerAddController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848E855F14D8D29B00B75F4A /* FlightCustomerAddController.m */; };
+		848E856414D9140C00B75F4A /* FlightCustomerTypeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848E856314D9140C00B75F4A /* FlightCustomerTypeTableViewController.m */; };
+		848E856714D9198C00B75F4A /* FlightCertificateTypeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848E856614D9198C00B75F4A /* FlightCertificateTypeTableViewController.m */; };
+		848E856A14D91CBB00B75F4A /* FlightSecureNumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848E856914D91CBA00B75F4A /* FlightSecureNumTableViewController.m */; };
+		848F0C8714B828F000A9E0E6 /* SettingChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F0C8614B828F000A9E0E6 /* SettingChoiceViewController.m */; };
+		848F0C8A14B8432400A9E0E6 /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F0C8914B8432300A9E0E6 /* AboutUsViewController.m */; };
+		848F106E149C8765000F7539 /* MemberLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F106D149C8765000F7539 /* MemberLoginViewController.m */; };
+		848F794D14C3F59A00B692A4 /* FlightSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848F794C14C3F59A00B692A4 /* FlightSearchViewController.m */; };
+		84902E6214DBEBF400F84EB1 /* HotelCitySettingChoiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84902E6114DBEBF400F84EB1 /* HotelCitySettingChoiceTableViewController.m */; };
+		8490655B14AB2C97001E792E /* FlightReserveDiscountChoiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8490655614AB2C97001E792E /* FlightReserveDiscountChoiceTableViewController.m */; };
+		8490655C14AB2C97001E792E /* FlightReserveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8490655814AB2C97001E792E /* FlightReserveViewController.m */; };
+		8490655D14AB2C97001E792E /* FlightReserveWeekChoiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8490655A14AB2C97001E792E /* FlightReserveWeekChoiceTableViewController.m */; };
+		8490B8DE14A40F82007E2EB1 /* CouponOrderInfoSearchResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8490B8DD14A40F82007E2EB1 /* CouponOrderInfoSearchResponseModel.m */; };
+		8490B8E214A41EE3007E2EB1 /* CouponOrderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8490B8E114A41EE3007E2EB1 /* CouponOrderListViewController.m */; };
+		8490B8EA14A484E4007E2EB1 /* CouponOrderInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8490B8E914A484E4007E2EB1 /* CouponOrderInfoViewController.m */; };
+		84949C6F1522FA1800B97198 /* PiosaColorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84949C6E1522FA1700B97198 /* PiosaColorManager.m */; };
+		84950AFC149F0E7B00805437 /* CouponClassChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84950AFB149F0E7B00805437 /* CouponClassChoiceViewController.m */; };
+		84950B00149F17A100805437 /* CouponListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84950AFF149F17A100805437 /* CouponListViewController.m */; };
+		84950B09149F242300805437 /* CouponListSearchResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84950B08149F242300805437 /* CouponListSearchResponseModel.m */; };
+		84950B0C149F260400805437 /* CouponListInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84950B0B149F260300805437 /* CouponListInfoModel.m */; };
+		8495FC4A14EB53E200A03375 /* NSString-NumericCompare.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495FC4714EB53E200A03375 /* NSString-NumericCompare.m */; };
+		8495FC4B14EB53E200A03375 /* UIView-ModalAnimationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495FC4914EB53E200A03375 /* UIView-ModalAnimationHelper.m */; };
+		8495FC5914EB53EE00A03375 /* DoubleTapSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495FC4E14EB53EE00A03375 /* DoubleTapSegmentedControl.m */; };
+		8495FC5A14EB53EE00A03375 /* ModelBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495FC5014EB53EE00A03375 /* ModelBackgroundView.m */; };
+		8495FC5B14EB53EE00A03375 /* ModelOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495FC5214EB53EE00A03375 /* ModelOverlayView.m */; };
+		8495FC5D14EB53EE00A03375 /* UIHTTPImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495FC5614EB53EE00A03375 /* UIHTTPImageView.m */; };
+		8495FC6114EB903100A03375 /* UIPiosaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495FC6014EB903100A03375 /* UIPiosaTableViewCell.m */; };
+		8495FC6414EB915400A03375 /* UIPiosaLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495FC6314EB915300A03375 /* UIPiosaLabel.m */; };
+		8496A1FD14B5A93100E97F77 /* FeedbackSearchResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496A1FC14B5A93100E97F77 /* FeedbackSearchResponseModel.m */; };
+		8496A20014B5AB9000E97F77 /* FeedbackCommitResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8496A1FF14B5AB9000E97F77 /* FeedbackCommitResponseModel.m */; };
+		849776BF14AEDBCF00DCFD87 /* WeatherSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849776BE14AEDBCF00DCFD87 /* WeatherSearchViewController.m */; };
+		849776C514AEFC6400DCFD87 /* WeatherSearchResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 849776C414AEFC6400DCFD87 /* WeatherSearchResponseModel.m */; };
+		849776C814AF0BE300DCFD87 /* WeatherSearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849776C714AF0BE300DCFD87 /* WeatherSearchResultViewController.m */; };
+		849776CB14AF0E1500DCFD87 /* WeatherCityChoiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849776CA14AF0E1500DCFD87 /* WeatherCityChoiceTableViewController.m */; };
+		849A26D7148F686200611BF9 /* OrderSearchMemberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849A26D6148F686200611BF9 /* OrderSearchMemberViewController.m */; };
+		849A26E0148F76B700611BF9 /* HotelOrderListInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 849A26DB148F76B700611BF9 /* HotelOrderListInfoModel.m */; };
+		849A26E2148F76B700611BF9 /* HotelOrderListSearchResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 849A26DF148F76B700611BF9 /* HotelOrderListSearchResponseModel.m */; };
+		849A26E8148F782000611BF9 /* HotelBookResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 849A26E5148F782000611BF9 /* HotelBookResponse.m */; };
+		849A26E9148F782000611BF9 /* HotelGuest.m in Sources */ = {isa = PBXBuildFile; fileRef = 849A26E7148F782000611BF9 /* HotelGuest.m */; };
+		849A26F5148F782700611BF9 /* HotelListInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 849A26EC148F782700611BF9 /* HotelListInfo.m */; };
+		849A26F6148F782700611BF9 /* HotelListSearchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 849A26EE148F782700611BF9 /* HotelListSearchRequest.m */; };
+		849A26F7148F782700611BF9 /* HotelListSearchResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 849A26F0148F782700611BF9 /* HotelListSearchResponse.m */; };
+		849A26F8148F782700611BF9 /* HotelRoomInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 849A26F2148F782700611BF9 /* HotelRoomInfo.m */; };
+		849A26F9148F782700611BF9 /* HotelSingleSearchResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 849A26F4148F782700611BF9 /* HotelSingleSearchResponse.m */; };
+		849A26FC148F789C00611BF9 /* HotelOrderInfoSearchResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 849A26FB148F789C00611BF9 /* HotelOrderInfoSearchResponseModel.m */; };
+		849D14FE1521C7890014AC73 /* UCAIResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 849D14FD1521C7890014AC73 /* UCAIResources.bundle */; };
+		84A2AC4714DA846300532709 /* FlightBookResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A2AC4614DA846300532709 /* FlightBookResponseModel.m */; };
+		84A2AC4A14DA87B800532709 /* FlightBookSucceedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A2AC4914DA87B800532709 /* FlightBookSucceedViewController.m */; };
+		84A2AC4D14DA944F00532709 /* FlightBookSucceedCouponChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A2AC4C14DA944E00532709 /* FlightBookSucceedCouponChoiceViewController.m */; };
+		84A4758414AD543400A0BBA0 /* PhoneBillRechargeBookResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4758314AD543400A0BBA0 /* PhoneBillRechargeBookResultViewController.m */; };
+		84A4759B14ADAAED00A0BBA0 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A4759914ADAAEC00A0BBA0 /* AddressBook.framework */; };
+		84A4759C14ADAAED00A0BBA0 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A4759A14ADAAEC00A0BBA0 /* AddressBookUI.framework */; };
+		84A7CE1D14B44E440092545E /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A7CE1C14B44E440092545E /* MessageUI.framework */; };
+		84A7CE2014B4625B0092545E /* FeedbackEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A7CE1F14B4625B0092545E /* FeedbackEditViewController.m */; };
+		84AF8DE31509B772008984CD /* PiosaFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF8DE21509B772008984CD /* PiosaFileManager.m */; };
+		84B66F0714B69F2000A8C022 /* FeedbackListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B66F0614B69F2000A8C022 /* FeedbackListViewController.m */; };
+		84B914E815206E6B00C3CFB6 /* icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B914E615206E6500C3CFB6 /* icon57.png */; };
+		84B914E915206E6B00C3CFB6 /* icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B914E715206E6700C3CFB6 /* icon114.png */; };
+		84B9CE1614C808E80075D943 /* FlightSeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B9CE1514C808E80075D943 /* FlightSeatViewController.m */; };
+		84B9CE1A14C817AC0075D943 /* FlightDetailSearchResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B9CE1914C817AC0075D943 /* FlightDetailSearchResponseModel.m */; };
+		84BDBC42151C7C54006422A2 /* ThemeChoiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BDBC41151C7C54006422A2 /* ThemeChoiceTableViewController.m */; };
+		84C19CDD14D6A47600C4A970 /* FlightBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C19CDC14D6A47600C4A970 /* FlightBookViewController.m */; };
+		84C727B714A0658400ED7DA4 /* CouponInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C727B614A0658400ED7DA4 /* CouponInfoViewController.m */; };
+		84C727BB14A06B0500ED7DA4 /* CouponInfoSearchResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C727BA14A06B0500ED7DA4 /* CouponInfoSearchResponseModel.m */; };
+		84CC075D1524609400FDE20A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 84CC075C1524609400FDE20A /* Default.png */; };
+		84CE3FEA1499DFAC00B1C319 /* HotelBookSucceedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CE3FE91499DFAC00B1C319 /* HotelBookSucceedViewController.m */; };
+		84EE05C1149213F900FC31AF /* FlightOrderInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE05C0149213F900FC31AF /* FlightOrderInfoViewController.m */; };
+		84EE05C414921CFE00FC31AF /* FlightOrderInfoSearchResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE05C314921CFE00FC31AF /* FlightOrderInfoSearchResponseModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8412DBA214C0389F009A8F9B /* TrainDetailResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainDetailResponseModel.h; sourceTree = "<group>"; };
+		8412DBA314C0389F009A8F9B /* TrainDetailResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainDetailResponseModel.m; sourceTree = "<group>"; };
+		8412DBA514C03E5D009A8F9B /* TrainStationListResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainStationListResultViewController.h; sourceTree = "<group>"; };
+		8412DBA614C03E5D009A8F9B /* TrainStationListResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainStationListResultViewController.m; sourceTree = "<group>"; };
+		8421AE48151B00B600FDAED5 /* ThemeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeManager.h; sourceTree = "<group>"; };
+		8421AE49151B00B600FDAED5 /* ThemeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeManager.m; sourceTree = "<group>"; };
+		844860AE14A83FFF00BFDE0D /* FlightOrderCouponChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightOrderCouponChoiceViewController.h; sourceTree = "<group>"; };
+		844860AF14A83FFF00BFDE0D /* FlightOrderCouponChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FlightOrderCouponChoiceViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		844860B214A8427400BFDE0D /* CouponValidQueryResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponValidQueryResponseModel.h; sourceTree = "<group>"; };
+		844860B314A8427400BFDE0D /* CouponValidQueryResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponValidQueryResponseModel.m; sourceTree = "<group>"; };
+		845D1AA214C415910040E0ED /* FlightBookingCityChoiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightBookingCityChoiceTableViewController.h; sourceTree = "<group>"; };
+		845D1AA314C415910040E0ED /* FlightBookingCityChoiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightBookingCityChoiceTableViewController.m; sourceTree = "<group>"; };
+		845D1AA614C41D090040E0ED /* FlightCompanyChoiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightCompanyChoiceTableViewController.h; sourceTree = "<group>"; };
+		845D1AA714C41D090040E0ED /* FlightCompanyChoiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightCompanyChoiceTableViewController.m; sourceTree = "<group>"; };
+		847EC3EE14A17F7700EECBA8 /* CouponBuyCountChoiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponBuyCountChoiceTableViewController.h; sourceTree = "<group>"; };
+		847EC3EF14A17F7700EECBA8 /* CouponBuyCountChoiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponBuyCountChoiceTableViewController.m; sourceTree = "<group>"; };
+		847EC3F714A1AE7B00EECBA8 /* CouponBookingResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponBookingResponseModel.h; sourceTree = "<group>"; };
+		847EC3F814A1AE7B00EECBA8 /* CouponBookingResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponBookingResponseModel.m; sourceTree = "<group>"; };
+		847EC3FA14A1B2B700EECBA8 /* CouponBookResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponBookResultViewController.h; sourceTree = "<group>"; };
+		847EC3FB14A1B2B800EECBA8 /* CouponBookResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponBookResultViewController.m; sourceTree = "<group>"; };
+		847EC40D14A1E8F300EECBA8 /* AllinTelPayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllinTelPayViewController.h; sourceTree = "<group>"; };
+		847EC40E14A1E8F300EECBA8 /* AllinTelPayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllinTelPayViewController.m; sourceTree = "<group>"; };
+		848117AA1491E00A00AB55CE /* FlightOrderListSearchResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightOrderListSearchResponseModel.h; sourceTree = "<group>"; };
+		848117AB1491E00A00AB55CE /* FlightOrderListSearchResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightOrderListSearchResponseModel.m; sourceTree = "<group>"; };
+		848117AD1491E18D00AB55CE /* FlightOrderListInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightOrderListInfoModel.h; sourceTree = "<group>"; };
+		848117AE1491E18D00AB55CE /* FlightOrderListInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightOrderListInfoModel.m; sourceTree = "<group>"; };
+		84816C1714A303280092FF35 /* AllinTelPayResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllinTelPayResponseModel.h; sourceTree = "<group>"; };
+		84816C1814A303280092FF35 /* AllinTelPayResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllinTelPayResponseModel.m; sourceTree = "<group>"; };
+		84816C1A14A30B240092FF35 /* ALLinTelPayResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALLinTelPayResultViewController.h; sourceTree = "<group>"; };
+		84816C1B14A30B240092FF35 /* ALLinTelPayResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALLinTelPayResultViewController.m; sourceTree = "<group>"; };
+		84816C1D14A323F40092FF35 /* CouponOrderListSearchResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponOrderListSearchResponseModel.h; sourceTree = "<group>"; };
+		84816C1E14A323F40092FF35 /* CouponOrderListSearchResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponOrderListSearchResponseModel.m; sourceTree = "<group>"; };
+		8481939814A5B93B0007536C /* CouponOrderSendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponOrderSendViewController.h; sourceTree = "<group>"; };
+		8481939914A5B93C0007536C /* CouponOrderSendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CouponOrderSendViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8481939C14A5D30A0007536C /* CouponSendResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponSendResponseModel.h; sourceTree = "<group>"; };
+		8481939D14A5D30B0007536C /* CouponSendResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponSendResponseModel.m; sourceTree = "<group>"; };
+		8484CC5414C54FF400C7143B /* FlightListSearchResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightListSearchResponseModel.h; sourceTree = "<group>"; };
+		8484CC5514C54FF400C7143B /* FlightListSearchResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightListSearchResponseModel.m; sourceTree = "<group>"; };
+		8484CC5714C5681000C7143B /* FlightListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightListViewController.h; sourceTree = "<group>"; };
+		8484CC5814C5681100C7143B /* FlightListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FlightListViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		848656BC14BFC12D0089D4F3 /* TrainSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainSearchViewController.h; sourceTree = "<group>"; };
+		848656BD14BFC12D0089D4F3 /* TrainSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TrainSearchViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		848656C014BFCF940089D4F3 /* TrainCityChoiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainCityChoiceTableViewController.h; sourceTree = "<group>"; };
+		848656C114BFCF940089D4F3 /* TrainCityChoiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainCityChoiceTableViewController.m; sourceTree = "<group>"; };
+		848656C414BFFAE90089D4F3 /* TrainSearchResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainSearchResponseModel.h; sourceTree = "<group>"; };
+		848656C514BFFAE90089D4F3 /* TrainSearchResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainSearchResponseModel.m; sourceTree = "<group>"; };
+		848656C714C002000089D4F3 /* TrainSearchListResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainSearchListResultViewController.h; sourceTree = "<group>"; };
+		848656C814C002000089D4F3 /* TrainSearchListResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TrainSearchListResultViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8487A4E914871EED0015FEA2 /* UCAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UCAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8487A4ED14871EED0015FEA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8487A4EF14871EED0015FEA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8487A4F114871EED0015FEA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8487A4F514871EED0015FEA2 /* UCAI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UCAI-Info.plist"; sourceTree = "<group>"; };
+		8487A4F714871EED0015FEA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8487A4F914871EED0015FEA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8487A4FB14871EED0015FEA2 /* UCAI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UCAI-Prefix.pch"; sourceTree = "<group>"; };
+		8487A514148723DB0015FEA2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8487A515148723DB0015FEA2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8487A5C914872D780015FEA2 /* CommonTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTools.h; sourceTree = "<group>"; };
+		8487A5CA14872D780015FEA2 /* CommonTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTools.m; sourceTree = "<group>"; };
+		8487A5CF14872D780015FEA2 /* StaticConf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticConf.h; sourceTree = "<group>"; };
+		8487A5D714872DC30015FEA2 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		8487A5D814872DC30015FEA2 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		8487A5DB14872E890015FEA2 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		8487A5DC14872E890015FEA2 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		8487A5DD14872E890015FEA2 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		8487A5DE14872E890015FEA2 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		8487A5DF14872E890015FEA2 /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
+		8487A5E014872E890015FEA2 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		8487A5E114872E890015FEA2 /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
+		8487A5E214872E890015FEA2 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		8487A5E314872E890015FEA2 /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		8487A5E414872E890015FEA2 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		8487A5E514872E890015FEA2 /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		8487A5E614872E890015FEA2 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		8487A5E714872E890015FEA2 /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		8487A5E814872E890015FEA2 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		8487A5E914872E890015FEA2 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		8487A5EA14872E890015FEA2 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		8487A5EB14872E890015FEA2 /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		8487A5EC14872E890015FEA2 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		8487A5ED14872E890015FEA2 /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		8487A5EE14872E890015FEA2 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		8487A5F814872ED80015FEA2 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		8487A5F914872ED80015FEA2 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		8487A5FC14872F230015FEA2 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		8487A5FD14872F230015FEA2 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		8487A60014872F480015FEA2 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		8487A60114872F480015FEA2 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		8487A60214872F480015FEA2 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		8487A60614872FD10015FEA2 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		8487A60714872FD10015FEA2 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = RootViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8487A60A1487304D0015FEA2 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		8487A60C1487307F0015FEA2 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		8487A60E1487308C0015FEA2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8487A610148730A40015FEA2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8487A6131487348C0015FEA2 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		8487A6141487348C0015FEA2 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		8487A6151487348C0015FEA2 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		8487A6161487348C0015FEA2 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		8487A6171487348C0015FEA2 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		8487A6181487348C0015FEA2 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		8487A6191487348C0015FEA2 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		8487A61A1487348C0015FEA2 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		8487A61B1487348C0015FEA2 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		8487A61C1487348C0015FEA2 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		8487A61D1487348C0015FEA2 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		8487A61E1487348C0015FEA2 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		8487A61F1487348C0015FEA2 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		8487A626148737C50015FEA2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8487A6281487382E0015FEA2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8487A62A148745DD0015FEA2 /* MemberCenterFirstController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberCenterFirstController.h; sourceTree = "<group>"; };
+		8487A62B148745DD0015FEA2 /* MemberCenterFirstController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberCenterFirstController.m; sourceTree = "<group>"; };
+		8487A630148746550015FEA2 /* MemberPasswordBackController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberPasswordBackController.h; sourceTree = "<group>"; };
+		8487A631148746550015FEA2 /* MemberPasswordBackController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MemberPasswordBackController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8487A632148746550015FEA2 /* RegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterController.h; sourceTree = "<group>"; };
+		8487A633148746550015FEA2 /* RegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = RegisterController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8487A637148746550015FEA2 /* MemberPasswordModifyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberPasswordModifyController.h; sourceTree = "<group>"; };
+		8487A638148746550015FEA2 /* MemberPasswordModifyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MemberPasswordModifyController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8487A63E148746970015FEA2 /* ResponseParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseParser.h; sourceTree = "<group>"; };
+		8487A63F148746970015FEA2 /* ResponseParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseParser.m; sourceTree = "<group>"; };
+		8487A642148746DE0015FEA2 /* MemberInfoModifyResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberInfoModifyResponse.h; sourceTree = "<group>"; };
+		8487A643148746DE0015FEA2 /* MemberInfoModifyResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberInfoModifyResponse.m; sourceTree = "<group>"; };
+		8487A644148746DE0015FEA2 /* MemberInfoQueryResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberInfoQueryResponse.h; sourceTree = "<group>"; };
+		8487A645148746DE0015FEA2 /* MemberInfoQueryResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberInfoQueryResponse.m; sourceTree = "<group>"; };
+		8487A646148746DE0015FEA2 /* MemberLoginResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberLoginResponse.h; sourceTree = "<group>"; };
+		8487A647148746DE0015FEA2 /* MemberLoginResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberLoginResponse.m; sourceTree = "<group>"; };
+		8487A648148746DE0015FEA2 /* MemberPasswordBackResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberPasswordBackResponse.h; sourceTree = "<group>"; };
+		8487A649148746DE0015FEA2 /* MemberPasswordBackResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberPasswordBackResponse.m; sourceTree = "<group>"; };
+		8487A64A148746DE0015FEA2 /* MemberPasswordModifyResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberPasswordModifyResponse.h; sourceTree = "<group>"; };
+		8487A64B148746DE0015FEA2 /* MemberPasswordModifyResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberPasswordModifyResponse.m; sourceTree = "<group>"; };
+		8487A64C148746DE0015FEA2 /* MemberPhoneVerifySendResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberPhoneVerifySendResponse.h; sourceTree = "<group>"; };
+		8487A64D148746DE0015FEA2 /* MemberPhoneVerifySendResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberPhoneVerifySendResponse.m; sourceTree = "<group>"; };
+		8487A64E148746DE0015FEA2 /* MemberRegisterResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberRegisterResponse.h; sourceTree = "<group>"; };
+		8487A64F148746DE0015FEA2 /* MemberRegisterResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberRegisterResponse.m; sourceTree = "<group>"; };
+		8487A6B514874B560015FEA2 /* OrderSearchClassChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderSearchClassChoiceViewController.h; sourceTree = "<group>"; };
+		8487A6B614874B560015FEA2 /* OrderSearchClassChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderSearchClassChoiceViewController.m; sourceTree = "<group>"; };
+		8487A6B714874B560015FEA2 /* OrderSearchGuestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderSearchGuestViewController.h; sourceTree = "<group>"; };
+		8487A6B814874B560015FEA2 /* OrderSearchGuestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = OrderSearchGuestViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8487A6BC14874B720015FEA2 /* HotelBookController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelBookController.h; sourceTree = "<group>"; };
+		8487A6BD14874B720015FEA2 /* HotelBookController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = HotelBookController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8487A6BE14874B720015FEA2 /* HotelGuestAddController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelGuestAddController.h; sourceTree = "<group>"; };
+		8487A6BF14874B720015FEA2 /* HotelGuestAddController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelGuestAddController.m; sourceTree = "<group>"; };
+		8487A6C014874B720015FEA2 /* HotelRoomArrivalLastTimeChoiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelRoomArrivalLastTimeChoiceController.h; sourceTree = "<group>"; };
+		8487A6C114874B720015FEA2 /* HotelRoomArrivalLastTimeChoiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelRoomArrivalLastTimeChoiceController.m; sourceTree = "<group>"; };
+		8487A6C214874B720015FEA2 /* HotelRoomCountChoiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelRoomCountChoiceController.h; sourceTree = "<group>"; };
+		8487A6C314874B720015FEA2 /* HotelRoomCountChoiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelRoomCountChoiceController.m; sourceTree = "<group>"; };
+		8487A6C514874B720015FEA2 /* HotelListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelListController.h; sourceTree = "<group>"; };
+		8487A6C614874B720015FEA2 /* HotelListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = HotelListController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8487A6C814874B720015FEA2 /* HotelCityChoiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelCityChoiceController.h; sourceTree = "<group>"; };
+		8487A6C914874B720015FEA2 /* HotelCityChoiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelCityChoiceController.m; sourceTree = "<group>"; };
+		8487A6CA14874B720015FEA2 /* HotelPriceChoiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelPriceChoiceController.h; sourceTree = "<group>"; };
+		8487A6CB14874B720015FEA2 /* HotelPriceChoiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelPriceChoiceController.m; sourceTree = "<group>"; };
+		8487A6CC14874B720015FEA2 /* HotelSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelSearchController.h; sourceTree = "<group>"; };
+		8487A6CD14874B720015FEA2 /* HotelSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = HotelSearchController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8487A6CE14874B720015FEA2 /* HotelStarChoiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelStarChoiceController.h; sourceTree = "<group>"; };
+		8487A6CF14874B720015FEA2 /* HotelStarChoiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelStarChoiceController.m; sourceTree = "<group>"; };
+		8487A6D114874B720015FEA2 /* HotelSingleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelSingleController.h; sourceTree = "<group>"; };
+		8487A6D214874B720015FEA2 /* HotelSingleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelSingleController.m; sourceTree = "<group>"; };
+		8488770D14DF690D00A9CD36 /* FlightCitySettingChoiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightCitySettingChoiceTableViewController.h; sourceTree = "<group>"; };
+		8488770E14DF690D00A9CD36 /* FlightCitySettingChoiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightCitySettingChoiceTableViewController.m; sourceTree = "<group>"; };
+		8488771114DF6D8300A9CD36 /* TrainCitySettingChoiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainCitySettingChoiceTableViewController.h; sourceTree = "<group>"; };
+		8488771214DF6D8300A9CD36 /* TrainCitySettingChoiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainCitySettingChoiceTableViewController.m; sourceTree = "<group>"; };
+		8488771414DF7E0B00A9CD36 /* WeatherCitySettingChoiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherCitySettingChoiceTableViewController.h; sourceTree = "<group>"; };
+		8488771514DF7E0B00A9CD36 /* WeatherCitySettingChoiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherCitySettingChoiceTableViewController.m; sourceTree = "<group>"; };
+		8488772414DFE1B600A9CD36 /* MemberFlightHistoryCustomerQueryResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberFlightHistoryCustomerQueryResponse.h; sourceTree = "<group>"; };
+		8488772514DFE1B600A9CD36 /* MemberFlightHistoryCustomerQueryResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberFlightHistoryCustomerQueryResponse.m; sourceTree = "<group>"; };
+		8488772714DFE43100A9CD36 /* MemberFlightHistoryCustomerDeleteResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberFlightHistoryCustomerDeleteResponse.h; sourceTree = "<group>"; };
+		8488772814DFE43100A9CD36 /* MemberFlightHistoryCustomerDeleteResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MemberFlightHistoryCustomerDeleteResponse.m; sourceTree = "<group>"; };
+		8488949C14A9B58900249111 /* FlightClassChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightClassChoiceViewController.h; sourceTree = "<group>"; };
+		8488949D14A9B58900249111 /* FlightClassChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightClassChoiceViewController.m; sourceTree = "<group>"; };
+		848A80B714BA84E7002543DD /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		848A80B814BA84E7002543DD /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		848B023514ABFBBB006A3E98 /* FlightReserveResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightReserveResponseModel.h; sourceTree = "<group>"; };
+		848B023614ABFBBB006A3E98 /* FlightReserveResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightReserveResponseModel.m; sourceTree = "<group>"; };
+		848B023C14AC3FFB006A3E98 /* FlightReserveCityChoiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightReserveCityChoiceTableViewController.h; sourceTree = "<group>"; };
+		848B023D14AC3FFB006A3E98 /* FlightReserveCityChoiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightReserveCityChoiceTableViewController.m; sourceTree = "<group>"; };
+		848B024614AC5011006A3E98 /* PhoneBillRechargeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneBillRechargeViewController.h; sourceTree = "<group>"; };
+		848B024714AC5011006A3E98 /* PhoneBillRechargeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PhoneBillRechargeViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		848B025314AC73C4006A3E98 /* PhoneBillRechargePriceChoiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneBillRechargePriceChoiceTableViewController.h; sourceTree = "<group>"; };
+		848B025414AC73C4006A3E98 /* PhoneBillRechargePriceChoiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PhoneBillRechargePriceChoiceTableViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		848B025714AC76F3006A3E98 /* PhoneBillRechargeResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneBillRechargeResponseModel.h; sourceTree = "<group>"; };
+		848B025814AC76F3006A3E98 /* PhoneBillRechargeResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneBillRechargeResponseModel.m; sourceTree = "<group>"; };
+		848C05B514E0C4A000DE953E /* FlightHistoryCustomerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightHistoryCustomerViewController.h; sourceTree = "<group>"; };
+		848C05B614E0C4A000DE953E /* FlightHistoryCustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FlightHistoryCustomerViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		848C05B814E112F500DE953E /* FlightHistoryCustomerChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightHistoryCustomerChoiceViewController.h; sourceTree = "<group>"; };
+		848C05B914E112F500DE953E /* FlightHistoryCustomerChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FlightHistoryCustomerChoiceViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		848C05BB14E131DE00DE953E /* MemberInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberInfoViewController.h; sourceTree = "<group>"; };
+		848C05BC14E131DE00DE953E /* MemberInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MemberInfoViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		848D4EA514D7BCB5008D03A1 /* FlightCustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightCustomer.h; sourceTree = "<group>"; };
+		848D4EA614D7BCB5008D03A1 /* FlightCustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightCustomer.m; sourceTree = "<group>"; };
+		848D7DAC1490486D00EF7162 /* HotelOrderInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelOrderInfoViewController.h; sourceTree = "<group>"; };
+		848D7DAD1490486D00EF7162 /* HotelOrderInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = HotelOrderInfoViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		848E855E14D8D29B00B75F4A /* FlightCustomerAddController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightCustomerAddController.h; sourceTree = "<group>"; };
+		848E855F14D8D29B00B75F4A /* FlightCustomerAddController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightCustomerAddController.m; sourceTree = "<group>"; };
+		848E856214D9140C00B75F4A /* FlightCustomerTypeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightCustomerTypeTableViewController.h; sourceTree = "<group>"; };
+		848E856314D9140C00B75F4A /* FlightCustomerTypeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightCustomerTypeTableViewController.m; sourceTree = "<group>"; };
+		848E856514D9198C00B75F4A /* FlightCertificateTypeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightCertificateTypeTableViewController.h; sourceTree = "<group>"; };
+		848E856614D9198C00B75F4A /* FlightCertificateTypeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightCertificateTypeTableViewController.m; sourceTree = "<group>"; };
+		848E856814D91CBA00B75F4A /* FlightSecureNumTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightSecureNumTableViewController.h; sourceTree = "<group>"; };
+		848E856914D91CBA00B75F4A /* FlightSecureNumTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightSecureNumTableViewController.m; sourceTree = "<group>"; };
+		848F0C8514B828F000A9E0E6 /* SettingChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingChoiceViewController.h; sourceTree = "<group>"; };
+		848F0C8614B828F000A9E0E6 /* SettingChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingChoiceViewController.m; sourceTree = "<group>"; };
+		848F0C8814B8432300A9E0E6 /* AboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		848F0C8914B8432300A9E0E6 /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
+		848F106C149C8765000F7539 /* MemberLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemberLoginViewController.h; sourceTree = "<group>"; };
+		848F106D149C8765000F7539 /* MemberLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MemberLoginViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		848F794B14C3F59A00B692A4 /* FlightSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightSearchViewController.h; sourceTree = "<group>"; };
+		848F794C14C3F59A00B692A4 /* FlightSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FlightSearchViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		84902E6014DBEBF400F84EB1 /* HotelCitySettingChoiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelCitySettingChoiceTableViewController.h; sourceTree = "<group>"; };
+		84902E6114DBEBF400F84EB1 /* HotelCitySettingChoiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelCitySettingChoiceTableViewController.m; sourceTree = "<group>"; };
+		8490655514AB2C97001E792E /* FlightReserveDiscountChoiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightReserveDiscountChoiceTableViewController.h; sourceTree = "<group>"; };
+		8490655614AB2C97001E792E /* FlightReserveDiscountChoiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightReserveDiscountChoiceTableViewController.m; sourceTree = "<group>"; };
+		8490655714AB2C97001E792E /* FlightReserveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightReserveViewController.h; sourceTree = "<group>"; };
+		8490655814AB2C97001E792E /* FlightReserveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FlightReserveViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8490655914AB2C97001E792E /* FlightReserveWeekChoiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightReserveWeekChoiceTableViewController.h; sourceTree = "<group>"; };
+		8490655A14AB2C97001E792E /* FlightReserveWeekChoiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightReserveWeekChoiceTableViewController.m; sourceTree = "<group>"; };
+		8490B8DC14A40F82007E2EB1 /* CouponOrderInfoSearchResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponOrderInfoSearchResponseModel.h; sourceTree = "<group>"; };
+		8490B8DD14A40F82007E2EB1 /* CouponOrderInfoSearchResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponOrderInfoSearchResponseModel.m; sourceTree = "<group>"; };
+		8490B8E014A41EE3007E2EB1 /* CouponOrderListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponOrderListViewController.h; sourceTree = "<group>"; };
+		8490B8E114A41EE3007E2EB1 /* CouponOrderListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CouponOrderListViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		8490B8E814A484E4007E2EB1 /* CouponOrderInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponOrderInfoViewController.h; sourceTree = "<group>"; };
+		8490B8E914A484E4007E2EB1 /* CouponOrderInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CouponOrderInfoViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		84949C6D1522FA1700B97198 /* PiosaColorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PiosaColorManager.h; sourceTree = "<group>"; };
+		84949C6E1522FA1700B97198 /* PiosaColorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PiosaColorManager.m; sourceTree = "<group>"; };
+		84950AFA149F0E7B00805437 /* CouponClassChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponClassChoiceViewController.h; sourceTree = "<group>"; };
+		84950AFB149F0E7B00805437 /* CouponClassChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponClassChoiceViewController.m; sourceTree = "<group>"; };
+		84950AFE149F17A000805437 /* CouponListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponListViewController.h; sourceTree = "<group>"; };
+		84950AFF149F17A100805437 /* CouponListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CouponListViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		84950B07149F242300805437 /* CouponListSearchResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponListSearchResponseModel.h; sourceTree = "<group>"; };
+		84950B08149F242300805437 /* CouponListSearchResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponListSearchResponseModel.m; sourceTree = "<group>"; };
+		84950B0A149F260300805437 /* CouponListInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponListInfoModel.h; sourceTree = "<group>"; };
+		84950B0B149F260300805437 /* CouponListInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponListInfoModel.m; sourceTree = "<group>"; };
+		8495FC4614EB53E200A03375 /* NSString-NumericCompare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString-NumericCompare.h"; sourceTree = "<group>"; };
+		8495FC4714EB53E200A03375 /* NSString-NumericCompare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString-NumericCompare.m"; sourceTree = "<group>"; };
+		8495FC4814EB53E200A03375 /* UIView-ModalAnimationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView-ModalAnimationHelper.h"; sourceTree = "<group>"; };
+		8495FC4914EB53E200A03375 /* UIView-ModalAnimationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView-ModalAnimationHelper.m"; sourceTree = "<group>"; };
+		8495FC4D14EB53EE00A03375 /* DoubleTapSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleTapSegmentedControl.h; sourceTree = "<group>"; };
+		8495FC4E14EB53EE00A03375 /* DoubleTapSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleTapSegmentedControl.m; sourceTree = "<group>"; };
+		8495FC4F14EB53EE00A03375 /* ModelBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelBackgroundView.h; sourceTree = "<group>"; };
+		8495FC5014EB53EE00A03375 /* ModelBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelBackgroundView.m; sourceTree = "<group>"; };
+		8495FC5114EB53EE00A03375 /* ModelOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelOverlayView.h; sourceTree = "<group>"; };
+		8495FC5214EB53EE00A03375 /* ModelOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelOverlayView.m; sourceTree = "<group>"; };
+		8495FC5514EB53EE00A03375 /* UIHTTPImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHTTPImageView.h; sourceTree = "<group>"; };
+		8495FC5614EB53EE00A03375 /* UIHTTPImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHTTPImageView.m; sourceTree = "<group>"; };
+		8495FC5F14EB903000A03375 /* UIPiosaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPiosaTableViewCell.h; sourceTree = "<group>"; };
+		8495FC6014EB903100A03375 /* UIPiosaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPiosaTableViewCell.m; sourceTree = "<group>"; };
+		8495FC6214EB915300A03375 /* UIPiosaLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPiosaLabel.h; sourceTree = "<group>"; };
+		8495FC6314EB915300A03375 /* UIPiosaLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPiosaLabel.m; sourceTree = "<group>"; };
+		8496A1FB14B5A93100E97F77 /* FeedbackSearchResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackSearchResponseModel.h; sourceTree = "<group>"; };
+		8496A1FC14B5A93100E97F77 /* FeedbackSearchResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackSearchResponseModel.m; sourceTree = "<group>"; };
+		8496A1FE14B5AB9000E97F77 /* FeedbackCommitResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackCommitResponseModel.h; sourceTree = "<group>"; };
+		8496A1FF14B5AB9000E97F77 /* FeedbackCommitResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackCommitResponseModel.m; sourceTree = "<group>"; };
+		849776BD14AEDBCF00DCFD87 /* WeatherSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherSearchViewController.h; sourceTree = "<group>"; };
+		849776BE14AEDBCF00DCFD87 /* WeatherSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WeatherSearchViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		849776C314AEFC6400DCFD87 /* WeatherSearchResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherSearchResponseModel.h; sourceTree = "<group>"; };
+		849776C414AEFC6400DCFD87 /* WeatherSearchResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherSearchResponseModel.m; sourceTree = "<group>"; };
+		849776C614AF0BE300DCFD87 /* WeatherSearchResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherSearchResultViewController.h; sourceTree = "<group>"; };
+		849776C714AF0BE300DCFD87 /* WeatherSearchResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = WeatherSearchResultViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		849776C914AF0E1500DCFD87 /* WeatherCityChoiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherCityChoiceTableViewController.h; sourceTree = "<group>"; };
+		849776CA14AF0E1500DCFD87 /* WeatherCityChoiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherCityChoiceTableViewController.m; sourceTree = "<group>"; };
+		849A26D5148F686200611BF9 /* OrderSearchMemberViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderSearchMemberViewController.h; sourceTree = "<group>"; };
+		849A26D6148F686200611BF9 /* OrderSearchMemberViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = OrderSearchMemberViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		849A26DA148F76B700611BF9 /* HotelOrderListInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelOrderListInfoModel.h; sourceTree = "<group>"; };
+		849A26DB148F76B700611BF9 /* HotelOrderListInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelOrderListInfoModel.m; sourceTree = "<group>"; };
+		849A26DE148F76B700611BF9 /* HotelOrderListSearchResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelOrderListSearchResponseModel.h; sourceTree = "<group>"; };
+		849A26DF148F76B700611BF9 /* HotelOrderListSearchResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelOrderListSearchResponseModel.m; sourceTree = "<group>"; };
+		849A26E4148F782000611BF9 /* HotelBookResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelBookResponse.h; sourceTree = "<group>"; };
+		849A26E5148F782000611BF9 /* HotelBookResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelBookResponse.m; sourceTree = "<group>"; };
+		849A26E6148F782000611BF9 /* HotelGuest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelGuest.h; sourceTree = "<group>"; };
+		849A26E7148F782000611BF9 /* HotelGuest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelGuest.m; sourceTree = "<group>"; };
+		849A26EB148F782700611BF9 /* HotelListInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelListInfo.h; sourceTree = "<group>"; };
+		849A26EC148F782700611BF9 /* HotelListInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelListInfo.m; sourceTree = "<group>"; };
+		849A26ED148F782700611BF9 /* HotelListSearchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelListSearchRequest.h; sourceTree = "<group>"; };
+		849A26EE148F782700611BF9 /* HotelListSearchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelListSearchRequest.m; sourceTree = "<group>"; };
+		849A26EF148F782700611BF9 /* HotelListSearchResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelListSearchResponse.h; sourceTree = "<group>"; };
+		849A26F0148F782700611BF9 /* HotelListSearchResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelListSearchResponse.m; sourceTree = "<group>"; };
+		849A26F1148F782700611BF9 /* HotelRoomInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelRoomInfo.h; sourceTree = "<group>"; };
+		849A26F2148F782700611BF9 /* HotelRoomInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelRoomInfo.m; sourceTree = "<group>"; };
+		849A26F3148F782700611BF9 /* HotelSingleSearchResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelSingleSearchResponse.h; sourceTree = "<group>"; };
+		849A26F4148F782700611BF9 /* HotelSingleSearchResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelSingleSearchResponse.m; sourceTree = "<group>"; };
+		849A26FA148F789C00611BF9 /* HotelOrderInfoSearchResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelOrderInfoSearchResponseModel.h; sourceTree = "<group>"; };
+		849A26FB148F789C00611BF9 /* HotelOrderInfoSearchResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelOrderInfoSearchResponseModel.m; sourceTree = "<group>"; };
+		849D14FD1521C7890014AC73 /* UCAIResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UCAIResources.bundle; sourceTree = "<group>"; };
+		84A2AC4514DA846300532709 /* FlightBookResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightBookResponseModel.h; sourceTree = "<group>"; };
+		84A2AC4614DA846300532709 /* FlightBookResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightBookResponseModel.m; sourceTree = "<group>"; };
+		84A2AC4814DA87B800532709 /* FlightBookSucceedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightBookSucceedViewController.h; sourceTree = "<group>"; };
+		84A2AC4914DA87B800532709 /* FlightBookSucceedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightBookSucceedViewController.m; sourceTree = "<group>"; };
+		84A2AC4B14DA944E00532709 /* FlightBookSucceedCouponChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightBookSucceedCouponChoiceViewController.h; sourceTree = "<group>"; };
+		84A2AC4C14DA944E00532709 /* FlightBookSucceedCouponChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FlightBookSucceedCouponChoiceViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		84A4758214AD543400A0BBA0 /* PhoneBillRechargeBookResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneBillRechargeBookResultViewController.h; sourceTree = "<group>"; };
+		84A4758314AD543400A0BBA0 /* PhoneBillRechargeBookResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneBillRechargeBookResultViewController.m; sourceTree = "<group>"; };
+		84A4759914ADAAEC00A0BBA0 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		84A4759A14ADAAEC00A0BBA0 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		84A7CE1C14B44E440092545E /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		84A7CE1E14B4625B0092545E /* FeedbackEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackEditViewController.h; sourceTree = "<group>"; };
+		84A7CE1F14B4625B0092545E /* FeedbackEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FeedbackEditViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		84AF8DE11509B772008984CD /* PiosaFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PiosaFileManager.h; sourceTree = "<group>"; };
+		84AF8DE21509B772008984CD /* PiosaFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PiosaFileManager.m; sourceTree = "<group>"; };
+		84B66F0514B69F2000A8C022 /* FeedbackListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackListViewController.h; sourceTree = "<group>"; };
+		84B66F0614B69F2000A8C022 /* FeedbackListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FeedbackListViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		84B914E615206E6500C3CFB6 /* icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon57.png; sourceTree = "<group>"; };
+		84B914E715206E6700C3CFB6 /* icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon114.png; sourceTree = "<group>"; };
+		84B9CE1414C808E80075D943 /* FlightSeatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightSeatViewController.h; sourceTree = "<group>"; };
+		84B9CE1514C808E80075D943 /* FlightSeatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FlightSeatViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		84B9CE1814C817AC0075D943 /* FlightDetailSearchResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightDetailSearchResponseModel.h; sourceTree = "<group>"; };
+		84B9CE1914C817AC0075D943 /* FlightDetailSearchResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightDetailSearchResponseModel.m; sourceTree = "<group>"; };
+		84BDBC40151C7C54006422A2 /* ThemeChoiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeChoiceTableViewController.h; sourceTree = "<group>"; };
+		84BDBC41151C7C54006422A2 /* ThemeChoiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeChoiceTableViewController.m; sourceTree = "<group>"; };
+		84C19CDB14D6A47600C4A970 /* FlightBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightBookViewController.h; sourceTree = "<group>"; };
+		84C19CDC14D6A47600C4A970 /* FlightBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FlightBookViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		84C727B514A0658400ED7DA4 /* CouponInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponInfoViewController.h; sourceTree = "<group>"; };
+		84C727B614A0658400ED7DA4 /* CouponInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponInfoViewController.m; sourceTree = "<group>"; };
+		84C727B914A06B0500ED7DA4 /* CouponInfoSearchResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouponInfoSearchResponseModel.h; sourceTree = "<group>"; };
+		84C727BA14A06B0500ED7DA4 /* CouponInfoSearchResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouponInfoSearchResponseModel.m; sourceTree = "<group>"; };
+		84CC075C1524609400FDE20A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		84CE3FE81499DFAC00B1C319 /* HotelBookSucceedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelBookSucceedViewController.h; sourceTree = "<group>"; };
+		84CE3FE91499DFAC00B1C319 /* HotelBookSucceedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelBookSucceedViewController.m; sourceTree = "<group>"; };
+		84EE05BF149213F900FC31AF /* FlightOrderInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightOrderInfoViewController.h; sourceTree = "<group>"; };
+		84EE05C0149213F900FC31AF /* FlightOrderInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = FlightOrderInfoViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		84EE05C214921CFE00FC31AF /* FlightOrderInfoSearchResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightOrderInfoSearchResponseModel.h; sourceTree = "<group>"; };
+		84EE05C314921CFE00FC31AF /* FlightOrderInfoSearchResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightOrderInfoSearchResponseModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8487A4E614871EED0015FEA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A7CE1D14B44E440092545E /* MessageUI.framework in Frameworks */,
+				84A4759B14ADAAED00A0BBA0 /* AddressBook.framework in Frameworks */,
+				84A4759C14ADAAED00A0BBA0 /* AddressBookUI.framework in Frameworks */,
+				8487A60D1487307F0015FEA2 /* libz.1.2.5.dylib in Frameworks */,
+				8487A60B1487304E0015FEA2 /* libxml2.dylib in Frameworks */,
+				8487A6291487382F0015FEA2 /* MobileCoreServices.framework in Frameworks */,
+				8487A627148737C60015FEA2 /* QuartzCore.framework in Frameworks */,
+				8487A611148730A40015FEA2 /* SystemConfiguration.framework in Frameworks */,
+				8487A60F1487308C0015FEA2 /* CFNetwork.framework in Frameworks */,
+				8487A4EE14871EED0015FEA2 /* UIKit.framework in Frameworks */,
+				8487A4F014871EED0015FEA2 /* Foundation.framework in Frameworks */,
+				8487A4F214871EED0015FEA2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		847EC3FD14A1CC0A00EECBA8 /* Pay */ = {
+			isa = PBXGroup;
+			children = (
+				847EC3FE14A1CC0A00EECBA8 /* AllinTelPay */,
+			);
+			path = Pay;
+			sourceTree = "<group>";
+		};
+		847EC3FE14A1CC0A00EECBA8 /* AllinTelPay */ = {
+			isa = PBXGroup;
+			children = (
+				847EC40D14A1E8F300EECBA8 /* AllinTelPayViewController.h */,
+				847EC40E14A1E8F300EECBA8 /* AllinTelPayViewController.m */,
+				84816C1A14A30B240092FF35 /* ALLinTelPayResultViewController.h */,
+				84816C1B14A30B240092FF35 /* ALLinTelPayResultViewController.m */,
+			);
+			path = AllinTelPay;
+			sourceTree = "<group>";
+		};
+		848117A81491DF9B00AB55CE /* FlightOrder */ = {
+			isa = PBXGroup;
+			children = (
+				848117AA1491E00A00AB55CE /* FlightOrderListSearchResponseModel.h */,
+				848117AB1491E00A00AB55CE /* FlightOrderListSearchResponseModel.m */,
+				848117AD1491E18D00AB55CE /* FlightOrderListInfoModel.h */,
+				848117AE1491E18D00AB55CE /* FlightOrderListInfoModel.m */,
+				84EE05C214921CFE00FC31AF /* FlightOrderInfoSearchResponseModel.h */,
+				84EE05C314921CFE00FC31AF /* FlightOrderInfoSearchResponseModel.m */,
+			);
+			path = FlightOrder;
+			sourceTree = "<group>";
+		};
+		84816C1414A302F90092FF35 /* Pay */ = {
+			isa = PBXGroup;
+			children = (
+				84816C1514A302F90092FF35 /* AllinTelPay */,
+			);
+			path = Pay;
+			sourceTree = "<group>";
+		};
+		84816C1514A302F90092FF35 /* AllinTelPay */ = {
+			isa = PBXGroup;
+			children = (
+				84816C1714A303280092FF35 /* AllinTelPayResponseModel.h */,
+				84816C1814A303280092FF35 /* AllinTelPayResponseModel.m */,
+			);
+			path = AllinTelPay;
+			sourceTree = "<group>";
+		};
+		8483A9B714BEE9A60077D781 /* TrainSearch */ = {
+			isa = PBXGroup;
+			children = (
+				848656BC14BFC12D0089D4F3 /* TrainSearchViewController.h */,
+				848656BD14BFC12D0089D4F3 /* TrainSearchViewController.m */,
+				848656C014BFCF940089D4F3 /* TrainCityChoiceTableViewController.h */,
+				848656C114BFCF940089D4F3 /* TrainCityChoiceTableViewController.m */,
+				848656C714C002000089D4F3 /* TrainSearchListResultViewController.h */,
+				848656C814C002000089D4F3 /* TrainSearchListResultViewController.m */,
+				8412DBA514C03E5D009A8F9B /* TrainStationListResultViewController.h */,
+				8412DBA614C03E5D009A8F9B /* TrainStationListResultViewController.m */,
+			);
+			path = TrainSearch;
+			sourceTree = "<group>";
+		};
+		8484CC5214C54FAD00C7143B /* FlightSearch */ = {
+			isa = PBXGroup;
+			children = (
+				8484CC5414C54FF400C7143B /* FlightListSearchResponseModel.h */,
+				8484CC5514C54FF400C7143B /* FlightListSearchResponseModel.m */,
+				84B9CE1814C817AC0075D943 /* FlightDetailSearchResponseModel.h */,
+				84B9CE1914C817AC0075D943 /* FlightDetailSearchResponseModel.m */,
+			);
+			path = FlightSearch;
+			sourceTree = "<group>";
+		};
+		8485C87414BEC96B008B153A /* FlightSearch */ = {
+			isa = PBXGroup;
+			children = (
+				848F794B14C3F59A00B692A4 /* FlightSearchViewController.h */,
+				848F794C14C3F59A00B692A4 /* FlightSearchViewController.m */,
+				845D1AA214C415910040E0ED /* FlightBookingCityChoiceTableViewController.h */,
+				845D1AA314C415910040E0ED /* FlightBookingCityChoiceTableViewController.m */,
+				845D1AA614C41D090040E0ED /* FlightCompanyChoiceTableViewController.h */,
+				845D1AA714C41D090040E0ED /* FlightCompanyChoiceTableViewController.m */,
+				8484CC5714C5681000C7143B /* FlightListViewController.h */,
+				8484CC5814C5681100C7143B /* FlightListViewController.m */,
+				84B9CE1414C808E80075D943 /* FlightSeatViewController.h */,
+				84B9CE1514C808E80075D943 /* FlightSeatViewController.m */,
+			);
+			path = FlightSearch;
+			sourceTree = "<group>";
+		};
+		848656C314BFFABF0089D4F3 /* TrainSearch */ = {
+			isa = PBXGroup;
+			children = (
+				848656C414BFFAE90089D4F3 /* TrainSearchResponseModel.h */,
+				848656C514BFFAE90089D4F3 /* TrainSearchResponseModel.m */,
+				8412DBA214C0389F009A8F9B /* TrainDetailResponseModel.h */,
+				8412DBA314C0389F009A8F9B /* TrainDetailResponseModel.m */,
+			);
+			path = TrainSearch;
+			sourceTree = "<group>";
+		};
+		8487A4DE14871EED0015FEA2 = {
+			isa = PBXGroup;
+			children = (
+				8487A4F314871EED0015FEA2 /* UCAI */,
+				8487A4EC14871EED0015FEA2 /* Frameworks */,
+				8487A4EA14871EED0015FEA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8487A4EA14871EED0015FEA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8487A4E914871EED0015FEA2 /* UCAI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8487A4EC14871EED0015FEA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84A7CE1C14B44E440092545E /* MessageUI.framework */,
+				84A4759914ADAAEC00A0BBA0 /* AddressBook.framework */,
+				84A4759A14ADAAEC00A0BBA0 /* AddressBookUI.framework */,
+				8487A60C1487307F0015FEA2 /* libz.1.2.5.dylib */,
+				8487A60A1487304D0015FEA2 /* libxml2.dylib */,
+				8487A6281487382E0015FEA2 /* MobileCoreServices.framework */,
+				8487A626148737C50015FEA2 /* QuartzCore.framework */,
+				8487A610148730A40015FEA2 /* SystemConfiguration.framework */,
+				8487A60E1487308C0015FEA2 /* CFNetwork.framework */,
+				8487A4ED14871EED0015FEA2 /* UIKit.framework */,
+				8487A4EF14871EED0015FEA2 /* Foundation.framework */,
+				8487A4F114871EED0015FEA2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8487A4F314871EED0015FEA2 /* UCAI */ = {
+			isa = PBXGroup;
+			children = (
+				8487A510148723340015FEA2 /* Classes */,
+				8487A517148724B30015FEA2 /* Resources */,
+				8487A4F414871EED0015FEA2 /* Supporting Files */,
+			);
+			path = UCAI;
+			sourceTree = "<group>";
+		};
+		8487A4F414871EED0015FEA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8487A4F514871EED0015FEA2 /* UCAI-Info.plist */,
+				8487A4F614871EED0015FEA2 /* InfoPlist.strings */,
+				8487A4F914871EED0015FEA2 /* main.m */,
+				8487A4FB14871EED0015FEA2 /* UCAI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8487A510148723340015FEA2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8487A521148725C10015FEA2 /* Hotel */,
+				8487A520148725C10015FEA2 /* Flight */,
+				8487A525148725C10015FEA2 /* Train */,
+				8487A524148725C10015FEA2 /* Order */,
+				8487A523148725C10015FEA2 /* Member */,
+				8487A51D148725C10015FEA2 /* Coupon */,
+				848B024514AC4FCD006A3E98 /* Recharge */,
+				849776BC14AEDB7100DCFD87 /* Weather */,
+				8487A51F148725C10015FEA2 /* Feedback */,
+				848F0C8414B828BB00A9E0E6 /* Setting */,
+				847EC3FD14A1CC0A00EECBA8 /* Pay */,
+				8487A51B148725C10015FEA2 /* BestPayCard */,
+				8487A51C148725C10015FEA2 /* CommonToolClass */,
+				8487A51E148725C10015FEA2 /* DataClass */,
+				8487A522148725C10015FEA2 /* MainFrame */,
+				8487A514148723DB0015FEA2 /* AppDelegate.h */,
+				8487A515148723DB0015FEA2 /* AppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8487A517148724B30015FEA2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84CC075C1524609400FDE20A /* Default.png */,
+				84B914E615206E6500C3CFB6 /* icon57.png */,
+				84B914E715206E6700C3CFB6 /* icon114.png */,
+				849D14FD1521C7890014AC73 /* UCAIResources.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8487A51B148725C10015FEA2 /* BestPayCard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BestPayCard;
+			sourceTree = "<group>";
+		};
+		8487A51C148725C10015FEA2 /* CommonToolClass */ = {
+			isa = PBXGroup;
+			children = (
+				8495FC4C14EB53EE00A03375 /* PiosaSubclass */,
+				8495FC4514EB526900A03375 /* PiosaCategory */,
+				8487A6121487348C0015FEA2 /* JSON */,
+				8487A5FF14872F480015FEA2 /* GTMBase64 */,
+				8487A5FB14872F230015FEA2 /* XMLSupport */,
+				8487A5F714872ED80015FEA2 /* EGOTableViewPullRefresh */,
+				8487A5DA14872E890015FEA2 /* ASIHTTPRequest-1.8.1 */,
+				8487A5D614872DC30015FEA2 /* Reachability */,
+				848A80B714BA84E7002543DD /* MBProgressHUD.h */,
+				848A80B814BA84E7002543DD /* MBProgressHUD.m */,
+				8487A63E148746970015FEA2 /* ResponseParser.h */,
+				8487A63F148746970015FEA2 /* ResponseParser.m */,
+				8487A5C914872D780015FEA2 /* CommonTools.h */,
+				8487A5CA14872D780015FEA2 /* CommonTools.m */,
+				8487A5CF14872D780015FEA2 /* StaticConf.h */,
+				84AF8DE11509B772008984CD /* PiosaFileManager.h */,
+				84AF8DE21509B772008984CD /* PiosaFileManager.m */,
+				8421AE48151B00B600FDAED5 /* ThemeManager.h */,
+				8421AE49151B00B600FDAED5 /* ThemeManager.m */,
+				84949C6D1522FA1700B97198 /* PiosaColorManager.h */,
+				84949C6E1522FA1700B97198 /* PiosaColorManager.m */,
+			);
+			path = CommonToolClass;
+			sourceTree = "<group>";
+		};
+		8487A51D148725C10015FEA2 /* Coupon */ = {
+			isa = PBXGroup;
+			children = (
+				84950AFA149F0E7B00805437 /* CouponClassChoiceViewController.h */,
+				84950AFB149F0E7B00805437 /* CouponClassChoiceViewController.m */,
+				84950AFE149F17A000805437 /* CouponListViewController.h */,
+				84950AFF149F17A100805437 /* CouponListViewController.m */,
+				84C727B514A0658400ED7DA4 /* CouponInfoViewController.h */,
+				84C727B614A0658400ED7DA4 /* CouponInfoViewController.m */,
+				847EC3EE14A17F7700EECBA8 /* CouponBuyCountChoiceTableViewController.h */,
+				847EC3EF14A17F7700EECBA8 /* CouponBuyCountChoiceTableViewController.m */,
+				847EC3FA14A1B2B700EECBA8 /* CouponBookResultViewController.h */,
+				847EC3FB14A1B2B800EECBA8 /* CouponBookResultViewController.m */,
+				8490B8E014A41EE3007E2EB1 /* CouponOrderListViewController.h */,
+				8490B8E114A41EE3007E2EB1 /* CouponOrderListViewController.m */,
+				8490B8E814A484E4007E2EB1 /* CouponOrderInfoViewController.h */,
+				8490B8E914A484E4007E2EB1 /* CouponOrderInfoViewController.m */,
+				8481939814A5B93B0007536C /* CouponOrderSendViewController.h */,
+				8481939914A5B93C0007536C /* CouponOrderSendViewController.m */,
+			);
+			path = Coupon;
+			sourceTree = "<group>";
+		};
+		8487A51E148725C10015FEA2 /* DataClass */ = {
+			isa = PBXGroup;
+			children = (
+				8496A1FA14B5A90F00E97F77 /* Feedback */,
+				849776C214AEFC1E00DCFD87 /* Weather */,
+				848B025614AC76CA006A3E98 /* Recharge */,
+				84816C1414A302F90092FF35 /* Pay */,
+				84950B05149F23C000805437 /* Coupon */,
+				8487A676148749EA0015FEA2 /* Flight */,
+				8487A692148749EA0015FEA2 /* Train */,
+				8487A6571487474E0015FEA2 /* Hotel */,
+				8487A641148746DE0015FEA2 /* Member */,
+			);
+			path = DataClass;
+			sourceTree = "<group>";
+		};
+		8487A51F148725C10015FEA2 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				84A7CE1E14B4625B0092545E /* FeedbackEditViewController.h */,
+				84A7CE1F14B4625B0092545E /* FeedbackEditViewController.m */,
+				84B66F0514B69F2000A8C022 /* FeedbackListViewController.h */,
+				84B66F0614B69F2000A8C022 /* FeedbackListViewController.m */,
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+		8487A520148725C10015FEA2 /* Flight */ = {
+			isa = PBXGroup;
+			children = (
+				8490655414AB2C97001E792E /* FlightReserve */,
+				8485C87414BEC96B008B153A /* FlightSearch */,
+				84C19CD514D6906000C4A970 /* FlightBook */,
+				8488949C14A9B58900249111 /* FlightClassChoiceViewController.h */,
+				8488949D14A9B58900249111 /* FlightClassChoiceViewController.m */,
+			);
+			path = Flight;
+			sourceTree = "<group>";
+		};
+		8487A521148725C10015FEA2 /* Hotel */ = {
+			isa = PBXGroup;
+			children = (
+				8487A6C714874B720015FEA2 /* HotelSearch */,
+				8487A6C414874B720015FEA2 /* HotelList */,
+				8487A6D014874B720015FEA2 /* HotelSingle */,
+				8487A6BB14874B720015FEA2 /* HotelBook */,
+			);
+			path = Hotel;
+			sourceTree = "<group>";
+		};
+		8487A522148725C10015FEA2 /* MainFrame */ = {
+			isa = PBXGroup;
+			children = (
+				8487A60614872FD10015FEA2 /* RootViewController.h */,
+				8487A60714872FD10015FEA2 /* RootViewController.m */,
+			);
+			path = MainFrame;
+			sourceTree = "<group>";
+		};
+		8487A523148725C10015FEA2 /* Member */ = {
+			isa = PBXGroup;
+			children = (
+				848C05B314E0C47900DE953E /* FlightHistoryCustomer */,
+				8487A62D148746550015FEA2 /* LoginAndOut */,
+				8487A634148746550015FEA2 /* MemberInfo */,
+				8487A62A148745DD0015FEA2 /* MemberCenterFirstController.h */,
+				8487A62B148745DD0015FEA2 /* MemberCenterFirstController.m */,
+			);
+			path = Member;
+			sourceTree = "<group>";
+		};
+		8487A524148725C10015FEA2 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				8487A6B514874B560015FEA2 /* OrderSearchClassChoiceViewController.h */,
+				8487A6B614874B560015FEA2 /* OrderSearchClassChoiceViewController.m */,
+				8487A6B714874B560015FEA2 /* OrderSearchGuestViewController.h */,
+				8487A6B814874B560015FEA2 /* OrderSearchGuestViewController.m */,
+				849A26D5148F686200611BF9 /* OrderSearchMemberViewController.h */,
+				849A26D6148F686200611BF9 /* OrderSearchMemberViewController.m */,
+				848D7DAC1490486D00EF7162 /* HotelOrderInfoViewController.h */,
+				848D7DAD1490486D00EF7162 /* HotelOrderInfoViewController.m */,
+				84EE05BF149213F900FC31AF /* FlightOrderInfoViewController.h */,
+				84EE05C0149213F900FC31AF /* FlightOrderInfoViewController.m */,
+				844860AE14A83FFF00BFDE0D /* FlightOrderCouponChoiceViewController.h */,
+				844860AF14A83FFF00BFDE0D /* FlightOrderCouponChoiceViewController.m */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		8487A525148725C10015FEA2 /* Train */ = {
+			isa = PBXGroup;
+			children = (
+				8483A9B714BEE9A60077D781 /* TrainSearch */,
+			);
+			path = Train;
+			sourceTree = "<group>";
+		};
+		8487A5D614872DC30015FEA2 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				8487A5D714872DC30015FEA2 /* Reachability.h */,
+				8487A5D814872DC30015FEA2 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		8487A5DA14872E890015FEA2 /* ASIHTTPRequest-1.8.1 */ = {
+			isa = PBXGroup;
+			children = (
+				8487A5DB14872E890015FEA2 /* ASIAuthenticationDialog.h */,
+				8487A5DC14872E890015FEA2 /* ASIAuthenticationDialog.m */,
+				8487A5DD14872E890015FEA2 /* ASICacheDelegate.h */,
+				8487A5DE14872E890015FEA2 /* ASIDataCompressor.h */,
+				8487A5DF14872E890015FEA2 /* ASIDataCompressor.m */,
+				8487A5E014872E890015FEA2 /* ASIDataDecompressor.h */,
+				8487A5E114872E890015FEA2 /* ASIDataDecompressor.m */,
+				8487A5E214872E890015FEA2 /* ASIDownloadCache.h */,
+				8487A5E314872E890015FEA2 /* ASIDownloadCache.m */,
+				8487A5E414872E890015FEA2 /* ASIFormDataRequest.h */,
+				8487A5E514872E890015FEA2 /* ASIFormDataRequest.m */,
+				8487A5E614872E890015FEA2 /* ASIHTTPRequest.h */,
+				8487A5E714872E890015FEA2 /* ASIHTTPRequest.m */,
+				8487A5E814872E890015FEA2 /* ASIHTTPRequestConfig.h */,
+				8487A5E914872E890015FEA2 /* ASIHTTPRequestDelegate.h */,
+				8487A5EA14872E890015FEA2 /* ASIInputStream.h */,
+				8487A5EB14872E890015FEA2 /* ASIInputStream.m */,
+				8487A5EC14872E890015FEA2 /* ASINetworkQueue.h */,
+				8487A5ED14872E890015FEA2 /* ASINetworkQueue.m */,
+				8487A5EE14872E890015FEA2 /* ASIProgressDelegate.h */,
+			);
+			path = "ASIHTTPRequest-1.8.1";
+			sourceTree = "<group>";
+		};
+		8487A5F714872ED80015FEA2 /* EGOTableViewPullRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				8487A5F814872ED80015FEA2 /* EGORefreshTableHeaderView.h */,
+				8487A5F914872ED80015FEA2 /* EGORefreshTableHeaderView.m */,
+			);
+			path = EGOTableViewPullRefresh;
+			sourceTree = "<group>";
+		};
+		8487A5FB14872F230015FEA2 /* XMLSupport */ = {
+			isa = PBXGroup;
+			children = (
+				8487A5FC14872F230015FEA2 /* GDataXMLNode.h */,
+				8487A5FD14872F230015FEA2 /* GDataXMLNode.m */,
+			);
+			path = XMLSupport;
+			sourceTree = "<group>";
+		};
+		8487A5FF14872F480015FEA2 /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				8487A60014872F480015FEA2 /* GTMBase64.h */,
+				8487A60114872F480015FEA2 /* GTMBase64.m */,
+				8487A60214872F480015FEA2 /* GTMDefines.h */,
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+		8487A6121487348C0015FEA2 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				8487A6131487348C0015FEA2 /* JSON.h */,
+				8487A6141487348C0015FEA2 /* NSObject+SBJSON.h */,
+				8487A6151487348C0015FEA2 /* NSObject+SBJSON.m */,
+				8487A6161487348C0015FEA2 /* NSString+SBJSON.h */,
+				8487A6171487348C0015FEA2 /* NSString+SBJSON.m */,
+				8487A6181487348C0015FEA2 /* SBJSON.h */,
+				8487A6191487348C0015FEA2 /* SBJSON.m */,
+				8487A61A1487348C0015FEA2 /* SBJsonBase.h */,
+				8487A61B1487348C0015FEA2 /* SBJsonBase.m */,
+				8487A61C1487348C0015FEA2 /* SBJsonParser.h */,
+				8487A61D1487348C0015FEA2 /* SBJsonParser.m */,
+				8487A61E1487348C0015FEA2 /* SBJsonWriter.h */,
+				8487A61F1487348C0015FEA2 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		8487A62D148746550015FEA2 /* LoginAndOut */ = {
+			isa = PBXGroup;
+			children = (
+				848F106C149C8765000F7539 /* MemberLoginViewController.h */,
+				848F106D149C8765000F7539 /* MemberLoginViewController.m */,
+				8487A630148746550015FEA2 /* MemberPasswordBackController.h */,
+				8487A631148746550015FEA2 /* MemberPasswordBackController.m */,
+				8487A632148746550015FEA2 /* RegisterController.h */,
+				8487A633148746550015FEA2 /* RegisterController.m */,
+			);
+			path = LoginAndOut;
+			sourceTree = "<group>";
+		};
+		8487A634148746550015FEA2 /* MemberInfo */ = {
+			isa = PBXGroup;
+			children = (
+				848C05BB14E131DE00DE953E /* MemberInfoViewController.h */,
+				848C05BC14E131DE00DE953E /* MemberInfoViewController.m */,
+				8487A637148746550015FEA2 /* MemberPasswordModifyController.h */,
+				8487A638148746550015FEA2 /* MemberPasswordModifyController.m */,
+			);
+			path = MemberInfo;
+			sourceTree = "<group>";
+		};
+		8487A641148746DE0015FEA2 /* Member */ = {
+			isa = PBXGroup;
+			children = (
+				8487A642148746DE0015FEA2 /* MemberInfoModifyResponse.h */,
+				8487A643148746DE0015FEA2 /* MemberInfoModifyResponse.m */,
+				8487A644148746DE0015FEA2 /* MemberInfoQueryResponse.h */,
+				8487A645148746DE0015FEA2 /* MemberInfoQueryResponse.m */,
+				8487A646148746DE0015FEA2 /* MemberLoginResponse.h */,
+				8487A647148746DE0015FEA2 /* MemberLoginResponse.m */,
+				8487A648148746DE0015FEA2 /* MemberPasswordBackResponse.h */,
+				8487A649148746DE0015FEA2 /* MemberPasswordBackResponse.m */,
+				8487A64A148746DE0015FEA2 /* MemberPasswordModifyResponse.h */,
+				8487A64B148746DE0015FEA2 /* MemberPasswordModifyResponse.m */,
+				8487A64C148746DE0015FEA2 /* MemberPhoneVerifySendResponse.h */,
+				8487A64D148746DE0015FEA2 /* MemberPhoneVerifySendResponse.m */,
+				8487A64E148746DE0015FEA2 /* MemberRegisterResponse.h */,
+				8487A64F148746DE0015FEA2 /* MemberRegisterResponse.m */,
+				8488772414DFE1B600A9CD36 /* MemberFlightHistoryCustomerQueryResponse.h */,
+				8488772514DFE1B600A9CD36 /* MemberFlightHistoryCustomerQueryResponse.m */,
+				8488772714DFE43100A9CD36 /* MemberFlightHistoryCustomerDeleteResponse.h */,
+				8488772814DFE43100A9CD36 /* MemberFlightHistoryCustomerDeleteResponse.m */,
+			);
+			path = Member;
+			sourceTree = "<group>";
+		};
+		8487A6571487474E0015FEA2 /* Hotel */ = {
+			isa = PBXGroup;
+			children = (
+				849A26EA148F782700611BF9 /* HotelSearch */,
+				849A26E3148F782000611BF9 /* HotelBook */,
+				849A26D9148F76B700611BF9 /* HotelOrder */,
+			);
+			path = Hotel;
+			sourceTree = "<group>";
+		};
+		8487A676148749EA0015FEA2 /* Flight */ = {
+			isa = PBXGroup;
+			children = (
+				848B023414ABFB3A006A3E98 /* FlightReserve */,
+				8484CC5214C54FAD00C7143B /* FlightSearch */,
+				84C19CD714D6908D00C4A970 /* FlightBook */,
+				848117A81491DF9B00AB55CE /* FlightOrder */,
+			);
+			path = Flight;
+			sourceTree = "<group>";
+		};
+		8487A692148749EA0015FEA2 /* Train */ = {
+			isa = PBXGroup;
+			children = (
+				848656C314BFFABF0089D4F3 /* TrainSearch */,
+			);
+			path = Train;
+			sourceTree = "<group>";
+		};
+		8487A6BB14874B720015FEA2 /* HotelBook */ = {
+			isa = PBXGroup;
+			children = (
+				8487A6BC14874B720015FEA2 /* HotelBookController.h */,
+				8487A6BD14874B720015FEA2 /* HotelBookController.m */,
+				8487A6BE14874B720015FEA2 /* HotelGuestAddController.h */,
+				8487A6BF14874B720015FEA2 /* HotelGuestAddController.m */,
+				8487A6C014874B720015FEA2 /* HotelRoomArrivalLastTimeChoiceController.h */,
+				8487A6C114874B720015FEA2 /* HotelRoomArrivalLastTimeChoiceController.m */,
+				8487A6C214874B720015FEA2 /* HotelRoomCountChoiceController.h */,
+				8487A6C314874B720015FEA2 /* HotelRoomCountChoiceController.m */,
+				84CE3FE81499DFAC00B1C319 /* HotelBookSucceedViewController.h */,
+				84CE3FE91499DFAC00B1C319 /* HotelBookSucceedViewController.m */,
+			);
+			path = HotelBook;
+			sourceTree = "<group>";
+		};
+		8487A6C414874B720015FEA2 /* HotelList */ = {
+			isa = PBXGroup;
+			children = (
+				8487A6C514874B720015FEA2 /* HotelListController.h */,
+				8487A6C614874B720015FEA2 /* HotelListController.m */,
+			);
+			path = HotelList;
+			sourceTree = "<group>";
+		};
+		8487A6C714874B720015FEA2 /* HotelSearch */ = {
+			isa = PBXGroup;
+			children = (
+				8487A6CC14874B720015FEA2 /* HotelSearchController.h */,
+				8487A6CD14874B720015FEA2 /* HotelSearchController.m */,
+				8487A6C814874B720015FEA2 /* HotelCityChoiceController.h */,
+				8487A6C914874B720015FEA2 /* HotelCityChoiceController.m */,
+				8487A6CA14874B720015FEA2 /* HotelPriceChoiceController.h */,
+				8487A6CB14874B720015FEA2 /* HotelPriceChoiceController.m */,
+				8487A6CE14874B720015FEA2 /* HotelStarChoiceController.h */,
+				8487A6CF14874B720015FEA2 /* HotelStarChoiceController.m */,
+			);
+			path = HotelSearch;
+			sourceTree = "<group>";
+		};
+		8487A6D014874B720015FEA2 /* HotelSingle */ = {
+			isa = PBXGroup;
+			children = (
+				8487A6D114874B720015FEA2 /* HotelSingleController.h */,
+				8487A6D214874B720015FEA2 /* HotelSingleController.m */,
+			);
+			path = HotelSingle;
+			sourceTree = "<group>";
+		};
+		848B023414ABFB3A006A3E98 /* FlightReserve */ = {
+			isa = PBXGroup;
+			children = (
+				848B023514ABFBBB006A3E98 /* FlightReserveResponseModel.h */,
+				848B023614ABFBBB006A3E98 /* FlightReserveResponseModel.m */,
+			);
+			path = FlightReserve;
+			sourceTree = "<group>";
+		};
+		848B024514AC4FCD006A3E98 /* Recharge */ = {
+			isa = PBXGroup;
+			children = (
+				848B024614AC5011006A3E98 /* PhoneBillRechargeViewController.h */,
+				848B024714AC5011006A3E98 /* PhoneBillRechargeViewController.m */,
+				848B025314AC73C4006A3E98 /* PhoneBillRechargePriceChoiceTableViewController.h */,
+				848B025414AC73C4006A3E98 /* PhoneBillRechargePriceChoiceTableViewController.m */,
+				84A4758214AD543400A0BBA0 /* PhoneBillRechargeBookResultViewController.h */,
+				84A4758314AD543400A0BBA0 /* PhoneBillRechargeBookResultViewController.m */,
+			);
+			path = Recharge;
+			sourceTree = "<group>";
+		};
+		848B025614AC76CA006A3E98 /* Recharge */ = {
+			isa = PBXGroup;
+			children = (
+				848B025714AC76F3006A3E98 /* PhoneBillRechargeResponseModel.h */,
+				848B025814AC76F3006A3E98 /* PhoneBillRechargeResponseModel.m */,
+			);
+			path = Recharge;
+			sourceTree = "<group>";
+		};
+		848C05B314E0C47900DE953E /* FlightHistoryCustomer */ = {
+			isa = PBXGroup;
+			children = (
+				848C05B514E0C4A000DE953E /* FlightHistoryCustomerViewController.h */,
+				848C05B614E0C4A000DE953E /* FlightHistoryCustomerViewController.m */,
+			);
+			path = FlightHistoryCustomer;
+			sourceTree = "<group>";
+		};
+		848F0C8414B828BB00A9E0E6 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				84902E5F14DBEBA900F84EB1 /* CitySetting */,
+				848F0C8814B8432300A9E0E6 /* AboutUsViewController.h */,
+				848F0C8914B8432300A9E0E6 /* AboutUsViewController.m */,
+				848F0C8514B828F000A9E0E6 /* SettingChoiceViewController.h */,
+				848F0C8614B828F000A9E0E6 /* SettingChoiceViewController.m */,
+				84BDBC40151C7C54006422A2 /* ThemeChoiceTableViewController.h */,
+				84BDBC41151C7C54006422A2 /* ThemeChoiceTableViewController.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		84902E5F14DBEBA900F84EB1 /* CitySetting */ = {
+			isa = PBXGroup;
+			children = (
+				84902E6014DBEBF400F84EB1 /* HotelCitySettingChoiceTableViewController.h */,
+				84902E6114DBEBF400F84EB1 /* HotelCitySettingChoiceTableViewController.m */,
+				8488770D14DF690D00A9CD36 /* FlightCitySettingChoiceTableViewController.h */,
+				8488770E14DF690D00A9CD36 /* FlightCitySettingChoiceTableViewController.m */,
+				8488771114DF6D8300A9CD36 /* TrainCitySettingChoiceTableViewController.h */,
+				8488771214DF6D8300A9CD36 /* TrainCitySettingChoiceTableViewController.m */,
+				8488771414DF7E0B00A9CD36 /* WeatherCitySettingChoiceTableViewController.h */,
+				8488771514DF7E0B00A9CD36 /* WeatherCitySettingChoiceTableViewController.m */,
+			);
+			path = CitySetting;
+			sourceTree = "<group>";
+		};
+		8490655414AB2C97001E792E /* FlightReserve */ = {
+			isa = PBXGroup;
+			children = (
+				8490655714AB2C97001E792E /* FlightReserveViewController.h */,
+				8490655814AB2C97001E792E /* FlightReserveViewController.m */,
+				848B023C14AC3FFB006A3E98 /* FlightReserveCityChoiceTableViewController.h */,
+				848B023D14AC3FFB006A3E98 /* FlightReserveCityChoiceTableViewController.m */,
+				8490655914AB2C97001E792E /* FlightReserveWeekChoiceTableViewController.h */,
+				8490655A14AB2C97001E792E /* FlightReserveWeekChoiceTableViewController.m */,
+				8490655514AB2C97001E792E /* FlightReserveDiscountChoiceTableViewController.h */,
+				8490655614AB2C97001E792E /* FlightReserveDiscountChoiceTableViewController.m */,
+			);
+			path = FlightReserve;
+			sourceTree = "<group>";
+		};
+		84950B05149F23C000805437 /* Coupon */ = {
+			isa = PBXGroup;
+			children = (
+				84950B07149F242300805437 /* CouponListSearchResponseModel.h */,
+				84950B08149F242300805437 /* CouponListSearchResponseModel.m */,
+				84950B0A149F260300805437 /* CouponListInfoModel.h */,
+				84950B0B149F260300805437 /* CouponListInfoModel.m */,
+				84C727B914A06B0500ED7DA4 /* CouponInfoSearchResponseModel.h */,
+				84C727BA14A06B0500ED7DA4 /* CouponInfoSearchResponseModel.m */,
+				847EC3F714A1AE7B00EECBA8 /* CouponBookingResponseModel.h */,
+				847EC3F814A1AE7B00EECBA8 /* CouponBookingResponseModel.m */,
+				84816C1D14A323F40092FF35 /* CouponOrderListSearchResponseModel.h */,
+				84816C1E14A323F40092FF35 /* CouponOrderListSearchResponseModel.m */,
+				8490B8DC14A40F82007E2EB1 /* CouponOrderInfoSearchResponseModel.h */,
+				8490B8DD14A40F82007E2EB1 /* CouponOrderInfoSearchResponseModel.m */,
+				8481939C14A5D30A0007536C /* CouponSendResponseModel.h */,
+				8481939D14A5D30B0007536C /* CouponSendResponseModel.m */,
+				844860B214A8427400BFDE0D /* CouponValidQueryResponseModel.h */,
+				844860B314A8427400BFDE0D /* CouponValidQueryResponseModel.m */,
+			);
+			path = Coupon;
+			sourceTree = "<group>";
+		};
+		8495FC4514EB526900A03375 /* PiosaCategory */ = {
+			isa = PBXGroup;
+			children = (
+				8495FC4614EB53E200A03375 /* NSString-NumericCompare.h */,
+				8495FC4714EB53E200A03375 /* NSString-NumericCompare.m */,
+				8495FC4814EB53E200A03375 /* UIView-ModalAnimationHelper.h */,
+				8495FC4914EB53E200A03375 /* UIView-ModalAnimationHelper.m */,
+			);
+			path = PiosaCategory;
+			sourceTree = "<group>";
+		};
+		8495FC4C14EB53EE00A03375 /* PiosaSubclass */ = {
+			isa = PBXGroup;
+			children = (
+				8495FC4D14EB53EE00A03375 /* DoubleTapSegmentedControl.h */,
+				8495FC4E14EB53EE00A03375 /* DoubleTapSegmentedControl.m */,
+				8495FC4F14EB53EE00A03375 /* ModelBackgroundView.h */,
+				8495FC5014EB53EE00A03375 /* ModelBackgroundView.m */,
+				8495FC5114EB53EE00A03375 /* ModelOverlayView.h */,
+				8495FC5214EB53EE00A03375 /* ModelOverlayView.m */,
+				8495FC5514EB53EE00A03375 /* UIHTTPImageView.h */,
+				8495FC5614EB53EE00A03375 /* UIHTTPImageView.m */,
+				8495FC5F14EB903000A03375 /* UIPiosaTableViewCell.h */,
+				8495FC6014EB903100A03375 /* UIPiosaTableViewCell.m */,
+				8495FC6214EB915300A03375 /* UIPiosaLabel.h */,
+				8495FC6314EB915300A03375 /* UIPiosaLabel.m */,
+			);
+			path = PiosaSubclass;
+			sourceTree = "<group>";
+		};
+		8496A1FA14B5A90F00E97F77 /* Feedback */ = {
+			isa = PBXGroup;
+			children = (
+				8496A1FB14B5A93100E97F77 /* FeedbackSearchResponseModel.h */,
+				8496A1FC14B5A93100E97F77 /* FeedbackSearchResponseModel.m */,
+				8496A1FE14B5AB9000E97F77 /* FeedbackCommitResponseModel.h */,
+				8496A1FF14B5AB9000E97F77 /* FeedbackCommitResponseModel.m */,
+			);
+			path = Feedback;
+			sourceTree = "<group>";
+		};
+		849776BC14AEDB7100DCFD87 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				849776BD14AEDBCF00DCFD87 /* WeatherSearchViewController.h */,
+				849776BE14AEDBCF00DCFD87 /* WeatherSearchViewController.m */,
+				849776C914AF0E1500DCFD87 /* WeatherCityChoiceTableViewController.h */,
+				849776CA14AF0E1500DCFD87 /* WeatherCityChoiceTableViewController.m */,
+				849776C614AF0BE300DCFD87 /* WeatherSearchResultViewController.h */,
+				849776C714AF0BE300DCFD87 /* WeatherSearchResultViewController.m */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		849776C214AEFC1E00DCFD87 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				849776C314AEFC6400DCFD87 /* WeatherSearchResponseModel.h */,
+				849776C414AEFC6400DCFD87 /* WeatherSearchResponseModel.m */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		849A26D9148F76B700611BF9 /* HotelOrder */ = {
+			isa = PBXGroup;
+			children = (
+				849A26DA148F76B700611BF9 /* HotelOrderListInfoModel.h */,
+				849A26DB148F76B700611BF9 /* HotelOrderListInfoModel.m */,
+				849A26DE148F76B700611BF9 /* HotelOrderListSearchResponseModel.h */,
+				849A26DF148F76B700611BF9 /* HotelOrderListSearchResponseModel.m */,
+				849A26FA148F789C00611BF9 /* HotelOrderInfoSearchResponseModel.h */,
+				849A26FB148F789C00611BF9 /* HotelOrderInfoSearchResponseModel.m */,
+			);
+			path = HotelOrder;
+			sourceTree = "<group>";
+		};
+		849A26E3148F782000611BF9 /* HotelBook */ = {
+			isa = PBXGroup;
+			children = (
+				849A26E4148F782000611BF9 /* HotelBookResponse.h */,
+				849A26E5148F782000611BF9 /* HotelBookResponse.m */,
+				849A26E6148F782000611BF9 /* HotelGuest.h */,
+				849A26E7148F782000611BF9 /* HotelGuest.m */,
+			);
+			path = HotelBook;
+			sourceTree = "<group>";
+		};
+		849A26EA148F782700611BF9 /* HotelSearch */ = {
+			isa = PBXGroup;
+			children = (
+				849A26F3148F782700611BF9 /* HotelSingleSearchResponse.h */,
+				849A26F4148F782700611BF9 /* HotelSingleSearchResponse.m */,
+				849A26ED148F782700611BF9 /* HotelListSearchRequest.h */,
+				849A26EE148F782700611BF9 /* HotelListSearchRequest.m */,
+				849A26EF148F782700611BF9 /* HotelListSearchResponse.h */,
+				849A26F0148F782700611BF9 /* HotelListSearchResponse.m */,
+				849A26EB148F782700611BF9 /* HotelListInfo.h */,
+				849A26EC148F782700611BF9 /* HotelListInfo.m */,
+				849A26F1148F782700611BF9 /* HotelRoomInfo.h */,
+				849A26F2148F782700611BF9 /* HotelRoomInfo.m */,
+			);
+			path = HotelSearch;
+			sourceTree = "<group>";
+		};
+		84C19CD514D6906000C4A970 /* FlightBook */ = {
+			isa = PBXGroup;
+			children = (
+				84C19CDB14D6A47600C4A970 /* FlightBookViewController.h */,
+				84C19CDC14D6A47600C4A970 /* FlightBookViewController.m */,
+				848E855E14D8D29B00B75F4A /* FlightCustomerAddController.h */,
+				848E855F14D8D29B00B75F4A /* FlightCustomerAddController.m */,
+				848C05B814E112F500DE953E /* FlightHistoryCustomerChoiceViewController.h */,
+				848C05B914E112F500DE953E /* FlightHistoryCustomerChoiceViewController.m */,
+				848E856214D9140C00B75F4A /* FlightCustomerTypeTableViewController.h */,
+				848E856314D9140C00B75F4A /* FlightCustomerTypeTableViewController.m */,
+				848E856514D9198C00B75F4A /* FlightCertificateTypeTableViewController.h */,
+				848E856614D9198C00B75F4A /* FlightCertificateTypeTableViewController.m */,
+				848E856814D91CBA00B75F4A /* FlightSecureNumTableViewController.h */,
+				848E856914D91CBA00B75F4A /* FlightSecureNumTableViewController.m */,
+				84A2AC4814DA87B800532709 /* FlightBookSucceedViewController.h */,
+				84A2AC4914DA87B800532709 /* FlightBookSucceedViewController.m */,
+				84A2AC4B14DA944E00532709 /* FlightBookSucceedCouponChoiceViewController.h */,
+				84A2AC4C14DA944E00532709 /* FlightBookSucceedCouponChoiceViewController.m */,
+			);
+			path = FlightBook;
+			sourceTree = "<group>";
+		};
+		84C19CD714D6908D00C4A970 /* FlightBook */ = {
+			isa = PBXGroup;
+			children = (
+				848D4EA514D7BCB5008D03A1 /* FlightCustomer.h */,
+				848D4EA614D7BCB5008D03A1 /* FlightCustomer.m */,
+				84A2AC4514DA846300532709 /* FlightBookResponseModel.h */,
+				84A2AC4614DA846300532709 /* FlightBookResponseModel.m */,
+			);
+			path = FlightBook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8487A4E814871EED0015FEA2 /* UCAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8487A50114871EED0015FEA2 /* Build configuration list for PBXNativeTarget "UCAI" */;
+			buildPhases = (
+				8487A4E514871EED0015FEA2 /* Sources */,
+				8487A4E614871EED0015FEA2 /* Frameworks */,
+				8487A4E714871EED0015FEA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UCAI;
+			productName = UCAI;
+			productReference = 8487A4E914871EED0015FEA2 /* UCAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8487A4E014871EED0015FEA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 8487A4E314871EED0015FEA2 /* Build configuration list for PBXProject "UCAI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8487A4DE14871EED0015FEA2;
+			productRefGroup = 8487A4EA14871EED0015FEA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8487A4E814871EED0015FEA2 /* UCAI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8487A4E714871EED0015FEA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8487A4F814871EED0015FEA2 /* InfoPlist.strings in Resources */,
+				84B914E815206E6B00C3CFB6 /* icon57.png in Resources */,
+				84B914E915206E6B00C3CFB6 /* icon114.png in Resources */,
+				849D14FE1521C7890014AC73 /* UCAIResources.bundle in Resources */,
+				84CC075D1524609400FDE20A /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8487A4E514871EED0015FEA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8487A4FA14871EED0015FEA2 /* main.m in Sources */,
+				8487A516148723DB0015FEA2 /* AppDelegate.m in Sources */,
+				8487A5D214872D780015FEA2 /* CommonTools.m in Sources */,
+				8487A5D914872DC30015FEA2 /* Reachability.m in Sources */,
+				8487A5EF14872E890015FEA2 /* ASIAuthenticationDialog.m in Sources */,
+				8487A5F014872E890015FEA2 /* ASIDataCompressor.m in Sources */,
+				8487A5F114872E890015FEA2 /* ASIDataDecompressor.m in Sources */,
+				8487A5F214872E890015FEA2 /* ASIDownloadCache.m in Sources */,
+				8487A5F314872E890015FEA2 /* ASIFormDataRequest.m in Sources */,
+				8487A5F414872E890015FEA2 /* ASIHTTPRequest.m in Sources */,
+				8487A5F514872E890015FEA2 /* ASIInputStream.m in Sources */,
+				8487A5F614872E890015FEA2 /* ASINetworkQueue.m in Sources */,
+				8487A5FA14872ED80015FEA2 /* EGORefreshTableHeaderView.m in Sources */,
+				8487A5FE14872F230015FEA2 /* GDataXMLNode.m in Sources */,
+				8487A60314872F480015FEA2 /* GTMBase64.m in Sources */,
+				8487A60914872FD10015FEA2 /* RootViewController.m in Sources */,
+				8487A6201487348C0015FEA2 /* NSObject+SBJSON.m in Sources */,
+				8487A6211487348C0015FEA2 /* NSString+SBJSON.m in Sources */,
+				8487A6221487348C0015FEA2 /* SBJSON.m in Sources */,
+				8487A6231487348C0015FEA2 /* SBJsonBase.m in Sources */,
+				8487A6241487348C0015FEA2 /* SBJsonParser.m in Sources */,
+				8487A6251487348C0015FEA2 /* SBJsonWriter.m in Sources */,
+				8487A62C148745DD0015FEA2 /* MemberCenterFirstController.m in Sources */,
+				8487A63A148746550015FEA2 /* MemberPasswordBackController.m in Sources */,
+				8487A63B148746550015FEA2 /* RegisterController.m in Sources */,
+				8487A63D148746550015FEA2 /* MemberPasswordModifyController.m in Sources */,
+				8487A640148746970015FEA2 /* ResponseParser.m in Sources */,
+				8487A650148746DE0015FEA2 /* MemberInfoModifyResponse.m in Sources */,
+				8487A651148746DE0015FEA2 /* MemberInfoQueryResponse.m in Sources */,
+				8487A652148746DE0015FEA2 /* MemberLoginResponse.m in Sources */,
+				8487A653148746DE0015FEA2 /* MemberPasswordBackResponse.m in Sources */,
+				8487A654148746DE0015FEA2 /* MemberPasswordModifyResponse.m in Sources */,
+				8487A655148746DE0015FEA2 /* MemberPhoneVerifySendResponse.m in Sources */,
+				8487A656148746DE0015FEA2 /* MemberRegisterResponse.m in Sources */,
+				8487A6B914874B560015FEA2 /* OrderSearchClassChoiceViewController.m in Sources */,
+				8487A6BA14874B560015FEA2 /* OrderSearchGuestViewController.m in Sources */,
+				8487A6D314874B720015FEA2 /* HotelBookController.m in Sources */,
+				8487A6D414874B720015FEA2 /* HotelGuestAddController.m in Sources */,
+				8487A6D514874B720015FEA2 /* HotelRoomArrivalLastTimeChoiceController.m in Sources */,
+				8487A6D614874B720015FEA2 /* HotelRoomCountChoiceController.m in Sources */,
+				8487A6D714874B720015FEA2 /* HotelListController.m in Sources */,
+				8487A6D814874B720015FEA2 /* HotelCityChoiceController.m in Sources */,
+				8487A6D914874B720015FEA2 /* HotelPriceChoiceController.m in Sources */,
+				8487A6DA14874B720015FEA2 /* HotelSearchController.m in Sources */,
+				8487A6DB14874B720015FEA2 /* HotelStarChoiceController.m in Sources */,
+				8487A6DC14874B720015FEA2 /* HotelSingleController.m in Sources */,
+				849A26D7148F686200611BF9 /* OrderSearchMemberViewController.m in Sources */,
+				849A26E0148F76B700611BF9 /* HotelOrderListInfoModel.m in Sources */,
+				849A26E2148F76B700611BF9 /* HotelOrderListSearchResponseModel.m in Sources */,
+				849A26E8148F782000611BF9 /* HotelBookResponse.m in Sources */,
+				849A26E9148F782000611BF9 /* HotelGuest.m in Sources */,
+				849A26F5148F782700611BF9 /* HotelListInfo.m in Sources */,
+				849A26F6148F782700611BF9 /* HotelListSearchRequest.m in Sources */,
+				849A26F7148F782700611BF9 /* HotelListSearchResponse.m in Sources */,
+				849A26F8148F782700611BF9 /* HotelRoomInfo.m in Sources */,
+				849A26F9148F782700611BF9 /* HotelSingleSearchResponse.m in Sources */,
+				849A26FC148F789C00611BF9 /* HotelOrderInfoSearchResponseModel.m in Sources */,
+				848D7DAE1490486D00EF7162 /* HotelOrderInfoViewController.m in Sources */,
+				848117AC1491E00A00AB55CE /* FlightOrderListSearchResponseModel.m in Sources */,
+				848117AF1491E18E00AB55CE /* FlightOrderListInfoModel.m in Sources */,
+				84EE05C1149213F900FC31AF /* FlightOrderInfoViewController.m in Sources */,
+				84EE05C414921CFE00FC31AF /* FlightOrderInfoSearchResponseModel.m in Sources */,
+				84CE3FEA1499DFAC00B1C319 /* HotelBookSucceedViewController.m in Sources */,
+				848F106E149C8765000F7539 /* MemberLoginViewController.m in Sources */,
+				84950AFC149F0E7B00805437 /* CouponClassChoiceViewController.m in Sources */,
+				84950B00149F17A100805437 /* CouponListViewController.m in Sources */,
+				84950B09149F242300805437 /* CouponListSearchResponseModel.m in Sources */,
+				84950B0C149F260400805437 /* CouponListInfoModel.m in Sources */,
+				84C727B714A0658400ED7DA4 /* CouponInfoViewController.m in Sources */,
+				84C727BB14A06B0500ED7DA4 /* CouponInfoSearchResponseModel.m in Sources */,
+				847EC3F014A17F7800EECBA8 /* CouponBuyCountChoiceTableViewController.m in Sources */,
+				847EC3F914A1AE7B00EECBA8 /* CouponBookingResponseModel.m in Sources */,
+				847EC3FC14A1B2B800EECBA8 /* CouponBookResultViewController.m in Sources */,
+				847EC40F14A1E8F300EECBA8 /* AllinTelPayViewController.m in Sources */,
+				84816C1914A303280092FF35 /* AllinTelPayResponseModel.m in Sources */,
+				84816C1C14A30B240092FF35 /* ALLinTelPayResultViewController.m in Sources */,
+				84816C1F14A323F40092FF35 /* CouponOrderListSearchResponseModel.m in Sources */,
+				8490B8DE14A40F82007E2EB1 /* CouponOrderInfoSearchResponseModel.m in Sources */,
+				8490B8E214A41EE3007E2EB1 /* CouponOrderListViewController.m in Sources */,
+				8490B8EA14A484E4007E2EB1 /* CouponOrderInfoViewController.m in Sources */,
+				8481939A14A5B93C0007536C /* CouponOrderSendViewController.m in Sources */,
+				8481939E14A5D30B0007536C /* CouponSendResponseModel.m in Sources */,
+				844860B014A83FFF00BFDE0D /* FlightOrderCouponChoiceViewController.m in Sources */,
+				844860B414A8427400BFDE0D /* CouponValidQueryResponseModel.m in Sources */,
+				8488949E14A9B58900249111 /* FlightClassChoiceViewController.m in Sources */,
+				8490655B14AB2C97001E792E /* FlightReserveDiscountChoiceTableViewController.m in Sources */,
+				8490655C14AB2C97001E792E /* FlightReserveViewController.m in Sources */,
+				8490655D14AB2C97001E792E /* FlightReserveWeekChoiceTableViewController.m in Sources */,
+				848B023714ABFBBB006A3E98 /* FlightReserveResponseModel.m in Sources */,
+				848B023E14AC3FFC006A3E98 /* FlightReserveCityChoiceTableViewController.m in Sources */,
+				848B024814AC5011006A3E98 /* PhoneBillRechargeViewController.m in Sources */,
+				848B025514AC73C4006A3E98 /* PhoneBillRechargePriceChoiceTableViewController.m in Sources */,
+				848B025914AC76F3006A3E98 /* PhoneBillRechargeResponseModel.m in Sources */,
+				84A4758414AD543400A0BBA0 /* PhoneBillRechargeBookResultViewController.m in Sources */,
+				849776BF14AEDBCF00DCFD87 /* WeatherSearchViewController.m in Sources */,
+				849776C514AEFC6400DCFD87 /* WeatherSearchResponseModel.m in Sources */,
+				849776C814AF0BE300DCFD87 /* WeatherSearchResultViewController.m in Sources */,
+				849776CB14AF0E1500DCFD87 /* WeatherCityChoiceTableViewController.m in Sources */,
+				84A7CE2014B4625B0092545E /* FeedbackEditViewController.m in Sources */,
+				8496A1FD14B5A93100E97F77 /* FeedbackSearchResponseModel.m in Sources */,
+				8496A20014B5AB9000E97F77 /* FeedbackCommitResponseModel.m in Sources */,
+				84B66F0714B69F2000A8C022 /* FeedbackListViewController.m in Sources */,
+				848F0C8714B828F000A9E0E6 /* SettingChoiceViewController.m in Sources */,
+				848F0C8A14B8432400A9E0E6 /* AboutUsViewController.m in Sources */,
+				848A80B914BA84E7002543DD /* MBProgressHUD.m in Sources */,
+				848656BE14BFC12D0089D4F3 /* TrainSearchViewController.m in Sources */,
+				848656C214BFCF940089D4F3 /* TrainCityChoiceTableViewController.m in Sources */,
+				848656C614BFFAE90089D4F3 /* TrainSearchResponseModel.m in Sources */,
+				848656C914C002000089D4F3 /* TrainSearchListResultViewController.m in Sources */,
+				8412DBA414C0389F009A8F9B /* TrainDetailResponseModel.m in Sources */,
+				8412DBA714C03E5D009A8F9B /* TrainStationListResultViewController.m in Sources */,
+				848F794D14C3F59A00B692A4 /* FlightSearchViewController.m in Sources */,
+				845D1AA414C415910040E0ED /* FlightBookingCityChoiceTableViewController.m in Sources */,
+				845D1AA814C41D090040E0ED /* FlightCompanyChoiceTableViewController.m in Sources */,
+				8484CC5614C54FF400C7143B /* FlightListSearchResponseModel.m in Sources */,
+				8484CC5914C5681400C7143B /* FlightListViewController.m in Sources */,
+				84B9CE1614C808E80075D943 /* FlightSeatViewController.m in Sources */,
+				84B9CE1A14C817AC0075D943 /* FlightDetailSearchResponseModel.m in Sources */,
+				84C19CDD14D6A47600C4A970 /* FlightBookViewController.m in Sources */,
+				848D4EA714D7BCB5008D03A1 /* FlightCustomer.m in Sources */,
+				848E856014D8D29B00B75F4A /* FlightCustomerAddController.m in Sources */,
+				848E856414D9140C00B75F4A /* FlightCustomerTypeTableViewController.m in Sources */,
+				848E856714D9198C00B75F4A /* FlightCertificateTypeTableViewController.m in Sources */,
+				848E856A14D91CBB00B75F4A /* FlightSecureNumTableViewController.m in Sources */,
+				84A2AC4714DA846300532709 /* FlightBookResponseModel.m in Sources */,
+				84A2AC4A14DA87B800532709 /* FlightBookSucceedViewController.m in Sources */,
+				84A2AC4D14DA944F00532709 /* FlightBookSucceedCouponChoiceViewController.m in Sources */,
+				84902E6214DBEBF400F84EB1 /* HotelCitySettingChoiceTableViewController.m in Sources */,
+				8488770F14DF690E00A9CD36 /* FlightCitySettingChoiceTableViewController.m in Sources */,
+				8488771314DF6D8300A9CD36 /* TrainCitySettingChoiceTableViewController.m in Sources */,
+				8488771614DF7E0B00A9CD36 /* WeatherCitySettingChoiceTableViewController.m in Sources */,
+				8488772614DFE1B600A9CD36 /* MemberFlightHistoryCustomerQueryResponse.m in Sources */,
+				8488772914DFE43200A9CD36 /* MemberFlightHistoryCustomerDeleteResponse.m in Sources */,
+				848C05B714E0C4A000DE953E /* FlightHistoryCustomerViewController.m in Sources */,
+				848C05BA14E112F500DE953E /* FlightHistoryCustomerChoiceViewController.m in Sources */,
+				848C05BD14E131DF00DE953E /* MemberInfoViewController.m in Sources */,
+				8495FC4A14EB53E200A03375 /* NSString-NumericCompare.m in Sources */,
+				8495FC4B14EB53E200A03375 /* UIView-ModalAnimationHelper.m in Sources */,
+				8495FC5914EB53EE00A03375 /* DoubleTapSegmentedControl.m in Sources */,
+				8495FC5A14EB53EE00A03375 /* ModelBackgroundView.m in Sources */,
+				8495FC5B14EB53EE00A03375 /* ModelOverlayView.m in Sources */,
+				8495FC5D14EB53EE00A03375 /* UIHTTPImageView.m in Sources */,
+				8495FC6114EB903100A03375 /* UIPiosaTableViewCell.m in Sources */,
+				8495FC6414EB915400A03375 /* UIPiosaLabel.m in Sources */,
+				84AF8DE31509B772008984CD /* PiosaFileManager.m in Sources */,
+				8421AE4A151B00B600FDAED5 /* ThemeManager.m in Sources */,
+				84BDBC42151C7C54006422A2 /* ThemeChoiceTableViewController.m in Sources */,
+				84949C6F1522FA1800B97198 /* PiosaColorManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8487A4F614871EED0015FEA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8487A4F714871EED0015FEA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8487A4FF14871EED0015FEA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer: xiaofeng jiang (QQE527M5NK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PROVISIONING_PROFILE = "BEF3D806-7AC0-48BB-A6AD-8EEC750CDD1D";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8487A50014871EED0015FEA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shenzhen Jing du tian xia Tech. Co.,LTD.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "FB5D8D71-6B74-422B-AC6B-D19C811AFEE4";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8487A50214871EED0015FEA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer: xiaofeng jiang (QQE527M5NK)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UCAI/UCAI-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "UCAI/UCAI-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "82A76F0B-7D1A-4170-84CF-95F2505D36FC";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8487A50314871EED0015FEA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Shenzhen Jing du tian xia Tech. Co.,LTD.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UCAI/UCAI-Prefix.pch";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "UCAI/UCAI-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "92B49A9C-977A-414B-B937-348214260754";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8487A4E314871EED0015FEA2 /* Build configuration list for PBXProject "UCAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8487A4FF14871EED0015FEA2 /* Debug */,
+				8487A50014871EED0015FEA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8487A50114871EED0015FEA2 /* Build configuration list for PBXNativeTarget "UCAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8487A50214871EED0015FEA2 /* Debug */,
+				8487A50314871EED0015FEA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8487A4E014871EED0015FEA2 /* Project object */;
+}
